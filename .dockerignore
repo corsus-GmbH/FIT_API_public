@@ -1,0 +1,59 @@
+# Exclude Git repository files
+.git/
+.gitignore
+
+# Exclude Python cache and compiled files
+**/__pycache__/
+**/*.py[co]
+**/*.pyd
+
+# Exclude pytest cache directories
+**/.pytest_cache/
+
+# Exclude temporary SQLite files
+data/*.db-wal
+data/*.db-shm
+
+# Exclude virtual environments
+venv/
+env/
+.virtualenv/
+
+# Exclude development and IDE configuration files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Exclude the 'convert data' folder
+convert data/
+
+# Exclude logs and temporary files
+logs/
+**/*.log
+**/*.tmp
+**/*.swp
+
+# Exclude build artifacts
+build/
+dist/
+*.egg-info/
+
+# Exclude node_modules if present
+node_modules/
+
+# Exclude coverage reports
+coverage/
+
+# Exclude documentation files if not needed
+docs/
+*.md
+
+# Include the debug.env file in the config folder
+# Exclude all debug.env files except the one in config/
+*.env
+**/*.env
+!config/debug.env
+!config/database.env
+
+# Exclude other unnecessary files or directories as needed

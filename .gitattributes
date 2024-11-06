@@ -1,0 +1,2 @@
+# Enforce Unix-style (LF) line endings for text files
+*.sh text eol=lf

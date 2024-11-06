@@ -1,0 +1,8 @@
+# HTTP client library for testing
+httpx==0.23.0
+
+# XML reporting for unittest
+unittest-xml-reporting
+
+
+pytest>=8.2.0
