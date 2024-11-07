@@ -424,7 +424,6 @@ class ItemAmount(BaseConfigModel):
 
     amount: float
 
-
     @field_validator("amount")
     def check_positive(cls, value):
         if value <= 0:
@@ -440,7 +439,7 @@ class InputData(BaseModel):
     Attributes:
     - items (Dict[str, float]): A dictionary where the keys are strings in the format 'ItemID-CountryAcronym'
       (e.g., '20134-FRA') and the values are the item amounts in kilograms (as floats). This field is required.
-    - weighting_scheme (OneOf): One of the following must be provided:
+    - weighting_scheme (OneOf, optional): One of the following must be provided:
         - weighting_scheme_name (str): A string representing the name of the weighting scheme to use for
           calculating environmental impacts.
         - weighting_scheme_id (int): An integer representing the ID of the weighting scheme to use.
@@ -458,76 +457,77 @@ class InputData(BaseModel):
         }
     )
     weighting_scheme_name: Optional[WeightingSchemeName] = Field(
-        None,
+        default=None,
         description="A string representing the weighting scheme name.",
         example="ef31_r0510"
     )
     weighting_scheme_id: Optional[WeightingSchemeID] = Field(
         None,
         description="An integer representing the scheme ID.",
+        example="1"
     )
 
-    model_config = ConfigDict(
-        json_schema_extra={
-            "properties": {
-                "items": {
-                    "type": "object",
-                    "description": "A dictionary where the keys are strings in the format 'ItemID-CountryAcronym' ("
-                                   "e.g., '20134-FRA'),"
-                                   "and the values are the item amounts as floats (in kilograms).",
-                    "additionalProperties": {
-                        "type": "number",
-                        "description": "The item amount in kilograms."
-                    }
-                },
-                "weighting_scheme": {
-                    "oneOf": [
-                        {
-                            "type": "object",
-                            "properties": {
-                                "weighting_scheme_name": {
-                                    "type": "string",
-                                    "description": "A string representing the weighting scheme name."
-                                }
-                            },
-                        },
-                        {
-                            "type": "object",
-                            "properties": {
-                                "weighting_scheme_id": {
-                                    "type": "integer",
-                                    "description": "An integer representing the weighting scheme ID."
-                                }
-                            },
-                        }
-                    ],
-                    "description": "One of `weighting_scheme_name` or `weighting_scheme_id` must be provided."
-                }
-            },
-            "required": ["items", "weighting_scheme"],
-            "example": {
-                "items": {
-                    "20134-FRA": 1.2,
-                    "24070-FRA": 0.5
-                },
-                "weighting_scheme_name": "ef31_r0510"
-            }
-        }
-    )
+    model_config = ConfigDict(json_schema_extra={
+                                  "properties": {
+                                      "items": {
+                                          "type": "object",
+                                          "description": "A dictionary where the keys are strings in the format 'ItemID-CountryAcronym' ("
+                                                         "e.g., '20134-FRA'),"
+                                                         "and the values are the item amounts as floats (in kilograms).",
+                                          "additionalProperties": {
+                                              "type": "number",
+                                              "description": "The item amount in kilograms."
+                                          }
+                                      },
+                                      "weighting_scheme": {
+                                          "oneOf": [
+                                              {
+                                                  "type": "object",
+                                                  "properties": {
+                                                      "weighting_scheme_name": {
+                                                          "type": "string",
+                                                          "description": "A string representing the weighting scheme name."
+                                                      }
+                                                  },
+                                              },
+                                              {
+                                                  "type": "object",
+                                                  "properties": {
+                                                      "weighting_scheme_id": {
+                                                          "type": "integer",
+                                                          "description": "An integer representing the weighting scheme ID."
+                                                      }
+                                                  },
+                                              }
+                                          ],
+                                          "description": "One of `weighting_scheme_name` or `weighting_scheme_id` must be provided."
+                                      }
+                                  },
+                                  "required": ["items"],
+                                  "example": {
+                                      "items": {
+                                          "20134-FRA": 1.2,
+                                          "24070-FRA": 0.5
+                                      },
+                                      "weighting_scheme_name": "ef31_r0510"
+                                  }
+                              }
+                              )
 
     @model_validator(mode='before')
     def validate_weighting_scheme(cls, values):
         """
         Validate that only one of `weighting_scheme_name` or `weighting_scheme_id` is provided.
-        Raises a ValidationError if both or neither are provided.
+        Raises a ValidationError if both or neither are provided, and applies a default if none is provided.
         """
         weighting_scheme_name = values.get('weighting_scheme_name')
         weighting_scheme_id = values.get('weighting_scheme_id')
 
-        if weighting_scheme_name and weighting_scheme_id:
-            raise ValueError("Only one of weighting_scheme_name or weighting_scheme_id should be provided, not both.")
+        # Apply the default only if both are missing
         if not weighting_scheme_name and not weighting_scheme_id:
-            raise ValueError("One of weighting_scheme_name or weighting_scheme_id must be provided.")
+            values['weighting_scheme_name'] = WeightingSchemeName("delphi_r0110")
+        elif weighting_scheme_name and weighting_scheme_id:
+            raise ValueError("Only one of weighting_scheme_name or weighting_scheme_id should be provided, not both.")
 
         return values
 

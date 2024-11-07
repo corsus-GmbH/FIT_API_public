@@ -180,7 +180,7 @@ async def calculate_recipe(
 
     ### Input Data:
     The input data includes the items that make up the recipe and - optionally - a specific weighting scheme used to assess
-    the environmental impact. If no weighting scheme is specified, the default one is being used. Each item is associated with a unique identifier and a specified amount in kilograms. The weighting scheme ensures that the impact is calculated consistently according to a predefined method.
+    the environmental impact. If no weighting scheme is specified, the default delphi_r0110 is being used. Each item is associated with a unique identifier and a specified amount in kilograms. The weighting scheme ensures that the impact is calculated consistently according to a predefined method.
 
     ### Input Data:
 
@@ -411,10 +411,6 @@ async def calculate_recipe(
     try:
         # Process input data to convert country acronyms to geo_ids
         processors.process_input_data(data, session)
-
-        # Raise an error if neither weighting_scheme_name nor weighting_scheme_id is provided
-        if not data.weighting_scheme_name and not data.weighting_scheme_id:
-            raise exceptions.MissingWeightingSchemeError()
 
         # Fetch the corresponding weighting scheme name or ID if necessary
         if not data.weighting_scheme_name and data.weighting_scheme_id:
