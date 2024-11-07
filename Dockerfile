@@ -1,6 +1,6 @@
 
 # Declare the build argument before any FROM instructions
-FROM python:3.12-alpine as base
+FROM python:3.12-alpine AS base
 
 WORKDIR /usr/src/FIT
 

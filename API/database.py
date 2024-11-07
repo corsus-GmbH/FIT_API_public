@@ -8,7 +8,7 @@ and to get a session.
 import logging
 
 from sqlmodel import SQLModel, create_engine, Session, select
-from sqlalchemy import inspect
+from sqlalchemy import inspect, func
 from typing import Type
 
 from API import config
@@ -56,9 +56,9 @@ def create_tables() -> None:
                 if not table_exists(engine, model_class):
                     raise RuntimeError(f"Table '{model_class.__tablename__}' was not created.")
 
-                # Check if the table is empty
-                records = session.exec(select(model_class)).all()
-                if not records:
+                # Check if the table is empty using COUNT
+                count = session.exec(select(func.count()).select_from(model_class)).one()
+                if count == 0:
                     raise RuntimeError(f"Table '{model_class.__tablename__}' is empty.")
     except Exception as unexpected_error:
         raise RuntimeError(
