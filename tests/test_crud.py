@@ -1,13 +1,58 @@
 # test_crud.py
+from typing import List
 
 import pytest
-from sqlmodel import select
+from sqlmodel import select,Session
 
 from API import (
     models,
     crud,
     schemas,
     exceptions,
+    )
+
+
+
+def test_get_min_max_values_excludes_proxies_single_scores(test_db, valid_data):
+    """
+    Test `get_min_max_values` to ensure it excludes items with `proxy_flag=True`
+    for single score calculations.
+    """
+    session = test_db
+
+    # Prepare test inputs
+    scheme_id = schemas.WeightingSchemeID(1)
+
+    # Filter valid_data to simulate expected results for single scores
+    non_proxy_item_ids = [
+        item_id for item_id, is_proxy in zip(valid_data["item_ids"], valid_data["proxy_flags"]) if not is_proxy
+    ]
+
+    # Calculate expected single score min and max for non-proxy items
+    relevant_single_scores = [
+        value
+        for (item_id, geo_id, scheme), value in valid_data["single_scores"].items()
+        if item_id in non_proxy_item_ids and scheme == scheme_id.scheme_id
+    ]
+    expected_single_score_max = max(relevant_single_scores) if relevant_single_scores else None
+    expected_single_score_min = min(relevant_single_scores) if relevant_single_scores else None
+
+    # Call the function
+    result = crud.get_min_max_values(
+        session=session,
+        scheme_id=scheme_id,
+        impact_category_ids=[],
+        lc_stage_ids=[],
+    )
+
+    # Assertions for Single Scores
+    assert result.single_score_max.lcia_value == expected_single_score_max, (
+        f"Expected max single score to be {expected_single_score_max}, "
+        f"but got {result.single_score_max.lcia_value}."
+    )
+    assert result.single_score_min.lcia_value == expected_single_score_min, (
+        f"Expected min single score to be {expected_single_score_min}, "
+        f"but got {result.single_score_min.lcia_value}."
     )
 
 

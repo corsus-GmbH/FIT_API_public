@@ -77,21 +77,31 @@ def populate_subgroups(
     )
 
 
-def populate_metadata(
-        session, item_ids, geo_ids
-):
+def populate_metadata(session, item_ids, geo_ids, proxy_flags=None):
+    """
+    Populate the database with metadata.
+
+    Args:
+        session (Session): The database session.
+        item_ids (list): A list of item IDs.
+        geo_ids (list): A list of geographic IDs corresponding to the items.
+        proxy_flags (list): A list of boolean flags indicating whether each item is a proxy.
+    """
+    if proxy_flags is None:
+        proxy_flags = [False] * len(item_ids)  # Default to all items having `proxy_flag` set to False
+
     metadata = []
-    for item_id, geo_id in zip(
-            item_ids, geo_ids
-    ):
+    for item_id, geo_id, proxy_flag in zip(item_ids, geo_ids, proxy_flags):
         metadata.append(
             models.MetaData(
-                item_id=item_id, geo_id=geo_id, name_lci=f"Item {item_id}",proxy_flag=False
+                item_id=item_id,
+                geo_id=geo_id,
+                name_lci=f"Item {item_id}",
+                proxy_flag=proxy_flag
             )
         )
-    session.add_all(
-        metadata
-    )
+    session.add_all(metadata)
+
 
 
 def populate_life_cycle_stages(
@@ -120,27 +130,54 @@ def populate_impact_categories(session, category_ids):
     session.commit()
 
 
-def populate_weighting_schemes(
-        session, weighting_names
-):
-    schemes = [models.WeightingSchemes(
-        scheme_id=id, name=weighting_name
-    ) for id, weighting_name in enumerate(
-        weighting_names, start=1
-    )]
-    session.add_all(
-        schemes
-    )
+def populate_weighting_schemes(session, weighting_names):
+    """
+    Populate the database with weighting schemes.
+
+    Args:
+        session (Session): The database session.
+        weighting_names (list): A list of valid weighting scheme names.
+    """
+    schemes = [
+        models.WeightingSchemes(scheme_id=id, name=weighting_name)
+        for id, weighting_name in enumerate(weighting_names, start=1)
+    ]
+    session.add_all(schemes)
+    session.commit()
 
 
-def create_single_scores(item_ids, geo_ids, scheme_ids):
-    single_scores = {
-        (item_id, geo_id, scheme_id): 50.0 + scheme_id + (i % 10)
-        for i, (item_id, geo_id) in enumerate(zip(item_ids, geo_ids))
-        for scheme_id in scheme_ids
-    }
-    return single_scores
+def create_single_scores(item_ids, geo_ids, scheme_ids, proxy_flags):
+    """
+    Create single scores for items, assigning inflated values to proxy items to test truncation.
 
+    Args:
+        item_ids (list): List of item IDs.
+        geo_ids (list): List of geo IDs.
+        scheme_ids (list): List of scheme IDs.
+        proxy_flags (list): List of booleans indicating if an item is a proxy.
+
+    Returns:
+        tuple: A dictionary of single scores keyed by (item_id, geo_id, scheme_id),
+               and the min and max single scores for non-proxy items.
+    """
+    single_scores = {}
+    non_proxy_scores = []
+
+    for item_id, geo_id, is_proxy in zip(item_ids, geo_ids, proxy_flags):
+        for scheme_id in scheme_ids:
+            if is_proxy:
+                # Inflate proxy values
+                single_score = 100000.0 + geo_id + scheme_id  # Significantly higher than non-proxy
+            else:
+                single_score = 50.0 + geo_id + scheme_id  # Example score calculation
+                non_proxy_scores.append(single_score)
+
+            single_scores[(item_id, geo_id, scheme_id)] = single_score
+
+    if not non_proxy_scores:
+        raise ValueError("No non-proxy items available for single score calculations.")
+
+    return single_scores, min(non_proxy_scores), max(non_proxy_scores)
 
 def populate_single_scores(
         session, single_scores
@@ -180,20 +217,46 @@ def populate_impact_category_weights(
     )
 
 
-def create_weighted_results(
-        item_ids, geo_ids, scheme_ids, impact_categories, stages
-):
+def create_weighted_results(item_ids, geo_ids, scheme_ids, impact_categories, stages, proxy_flags):
+    """
+    Create weighted results for items, inflating values for proxy items to test truncation.
+
+    Args:
+        item_ids (list): List of item IDs.
+        geo_ids (list): List of geo IDs.
+        scheme_ids (list): List of scheme IDs.
+        impact_categories (list): List of impact category IDs.
+        stages (list): List of life cycle stage IDs.
+        proxy_flags (list): List of booleans indicating if an item is a proxy.
+
+    Returns:
+        tuple: A dictionary of weighted results keyed by (item_id, geo_id, ic_id, stage_id, scheme_id),
+               and dictionaries for min and max values for each impact category and stage for non-proxy items.
+    """
     weighted_results = {}
-    for item_id, geo_id in zip(
-            item_ids, geo_ids
-    ):
+    ic_values = {ic_id: [] for ic_id in impact_categories}
+    lc_values = {stage_id: [] for stage_id in stages}
+
+    for item_id, geo_id, is_proxy in zip(item_ids, geo_ids, proxy_flags):
         for scheme_id in scheme_ids:
             for ic_id in impact_categories:
                 for stage_id in stages:
-                    # Simplified calculation example
-                    weighted_value = 10 * ic_id * stage_id * (scheme_id % 2 + 1)  # Example formula
+                    if is_proxy:
+                        # Inflate proxy values
+                        weighted_value = 100000.0 + ic_id * stage_id * (scheme_id % 2 + 1)
+                    else:
+                        weighted_value = 10 * ic_id * stage_id * (scheme_id % 2 + 1)
+                        ic_values[ic_id].append(weighted_value)
+                        lc_values[stage_id].append(weighted_value)
+
                     weighted_results[(item_id, geo_id, ic_id, stage_id, scheme_id)] = weighted_value
-    return weighted_results
+
+    ic_mins = {ic_id: min(values) for ic_id, values in ic_values.items() if values}
+    ic_maxs = {ic_id: max(values) for ic_id, values in ic_values.items() if values}
+    lc_mins = {stage_id: min(values) for stage_id, values in lc_values.items() if values}
+    lc_maxs = {stage_id: max(values) for stage_id, values in lc_values.items() if values}
+
+    return weighted_results, ic_mins, ic_maxs, lc_mins, lc_maxs
 
 
 def populate_weighted_results(
@@ -241,47 +304,54 @@ def populate_normalized_lcia_values(session, normalized_lcia_values):
 
 def setup_test_data():
     # Basic data definitions
-    item_ids = ["76101", "76102", "96778", "1029_1"]
-    geo_ids = [1, 2, 3, 4]
+    item_ids = ["7610", "76102", "96778", "1029_1", "76101_1", "76102_2"]  # Valid ItemIDs
+    geo_ids = [1, 2, 3, 4, 5, 6]  # Geo IDs
+    proxy_flags = [False, False, False, False, True, True]  # Proxy flags
+    impact_categories = list(range(1, 18))  # Impact category IDs
+    stages = list(range(1, 5))  # Life cycle stage IDs
+    weighting_names = ["ef31_r0510", "ef31_r0110"]  # Weighting schemes
+    scheme_ids = range(1, len(weighting_names) + 1)  # Scheme IDs
+    group_ids = [1, 2]  # Group IDs
+    subgroup_ids = [1, 2]  # Subgroup IDs
+
+    # Create single scores and weighted results
+    single_scores, single_score_min, single_score_max = create_single_scores(item_ids, geo_ids, scheme_ids, proxy_flags)
+    weighted_results, ic_mins, ic_maxs, lc_mins, lc_maxs = create_weighted_results(
+        item_ids, geo_ids, scheme_ids, impact_categories, stages, proxy_flags
+    )
+
+    # Generate other necessary data
     geographies = create_geographies(geo_ids)
-    group_ids = [1, 2]
-    subgroup_ids = [1, 2]
-    impact_categories = list(range(1, 18))
-    stages = list(range(1, 5))
-    weighting_names = ["weighting_delphi", "ef31_r0510", "Scheme C"]
-    scheme_ids = range(1, len(weighting_names) + 1)
-
-    # Creating single scores dynamically
-    single_scores = create_single_scores(
-        item_ids, geo_ids, scheme_ids
-    )
-
-    # Creating weighted results dynamically
-    weighted_results = create_weighted_results(
-        item_ids, geo_ids, scheme_ids, impact_categories, stages
-    )
-
-    # Creating impact category weights dynamically
-    ic_weights = create_impact_category_weights(
-        scheme_ids, impact_categories
-    )
-
+    ic_weights = create_impact_category_weights(scheme_ids, impact_categories)
     normalized_lcias = create_normalized_lcia_values(item_ids, geo_ids, stages, impact_categories)
 
+    # Collect min/max values
+    min_max_values = {
+        "single_score_min": single_score_min,
+        "single_score_max": single_score_max,
+        "ic_mins": ic_mins,
+        "ic_maxs": ic_maxs,
+        "lc_mins": lc_mins,
+        "lc_maxs": lc_maxs,
+    }
+
+    # Compile the test data
     data = {
         "item_ids": item_ids,
         "geo_ids": geo_ids,
-        "geographies": geographies,
-        "scheme_ids": scheme_ids,
+        "proxy_flags": proxy_flags,
         "impact_categories": impact_categories,
         "stages": stages,
+        "scheme_ids": scheme_ids,
         "weighting_names": weighting_names,
-        "group_ids": group_ids,
-        "subgroup_ids": subgroup_ids,
+        "group_ids": group_ids,  # Include group IDs
+        "subgroup_ids": subgroup_ids,  # Include subgroup IDs
+        "geographies": geographies,
         "single_scores": single_scores,
         "weighted_results": weighted_results,
         "weighting_scheme_name": ic_weights,
-        "normalized_lcias": normalized_lcias
+        "normalized_lcias": normalized_lcias,
+        "min_max_values": min_max_values,
     }
     return data
 
@@ -301,7 +371,7 @@ def test_db():
         populate_subgroups(session, data["subgroup_ids"])
         populate_life_cycle_stages(session, data["stages"])
         populate_impact_categories(session, data["impact_categories"])
-        populate_metadata(session, data["item_ids"], data["geo_ids"])
+        populate_metadata(session, data["item_ids"], data["geo_ids"],data["proxy_flags"])
         populate_weighting_schemes(session, data["weighting_names"])
         populate_single_scores(session, data["single_scores"])
         populate_weighted_results(session, data["weighted_results"])

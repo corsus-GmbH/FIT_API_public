@@ -612,6 +612,7 @@ class LCIAResult(BaseModel):
 
     item_id: ItemID
     geo_id: GeoID
+    proxy_flag: bool
     single_score: LCIAValue
     stage_values: Dict[LCStageID, LCIAValue]
     impact_category_values: Dict[ImpactCategoryID, LCIAValue]
@@ -733,12 +734,6 @@ class GradedLCIAValue(ExcludingBaseModel):
         else:
             return "A"
 
-    def compute_grade(self):
-        """
-        Compute and update the grade for the LCI value based on the scaled value.
-        """
-        self.grade = self.assign_grade(self.scaled_value)
-
 
 class GradedLCIAResult(ExcludingBaseModel):
     """
@@ -746,6 +741,7 @@ class GradedLCIAResult(ExcludingBaseModel):
     """
     item_id: Optional[ItemID] = Field(default=None, description="The ID of the item this result pertains to, optional.")
     geo_id: Optional[GeoID] = Field(default=None)
+    proxy_flag: bool
     single_score: GradedLCIAValue
     stage_values: Dict[LCStageID, GradedLCIAValue]
     impact_category_values: Dict[ImpactCategoryID, GradedLCIAValue]

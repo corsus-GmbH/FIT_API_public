@@ -32,35 +32,46 @@ def get_min_max_values(
 ) -> schemas.MinMaxValues:
     """
     Get maximal and minimal values for single scores, specified impact categories,
-    and lifecycle stages for a given scheme ID.
+    and lifecycle stages for a given scheme ID, excluding items with `proxy_flag=True`.
 
     Args:
         session (Session): The database session.
-        scheme_id (schemas.WeightingSchemeID): The scheme ID.
-        impact_category_ids (List[schemas.ImpactCategoryID]): List of impact category IDs.
-        lc_stage_ids (List[schemas.LCStageID]): List of lifecycle stage IDs.
+        scheme_id (schemas.WeightingSchemeID): The weighting scheme ID to filter results.
+        impact_category_ids (List[schemas.ImpactCategoryID]): List of impact category IDs
+            to include in the calculations. Each ID corresponds to a specific impact category.
+        lc_stage_ids (List[schemas.LCStageID]): List of lifecycle stage IDs to include
+            in the calculations. Each ID corresponds to a specific lifecycle stage.
 
     Returns:
-        schemas.MinMaxValues: An object containing maximal and minimal values for single scores,
-        impact categories, and lifecycle stages.
+        schemas.MinMaxValues: An object containing the following:
+            - Maximal and minimal values for single scores, filtered by the weighting scheme.
+            - Maximal and minimal values for specified impact categories.
+            - Maximal and minimal values for specified lifecycle stages.
+
+    Excludes:
+        Items with `proxy_flag=True` from all calculations.
 
     Raises:
+        exceptions.MinMaxValueNotFoundError: If no valid values are found for single scores,
+            impact categories, or lifecycle stages.
         ValueError: If there is a validation error in the Pydantic models.
         SQLAlchemyError: If a database error occurs.
-        exceptions.MinMaxValueNotFoundError: If min or max values are not found.
-        exceptions.UnknownError: If an unknown error occurs.
+        exceptions.UnknownError: For any unexpected errors.
     """
     try:
-        # Fetch max and min values for single scores
+        # Fetch max and min values for single scores, excluding proxy items
         single_score_query = (
             select(
                 func.max(models.SingleScores.single_score),
                 func.min(models.SingleScores.single_score)
             )
+            .join(models.MetaData, models.SingleScores.item_id == models.MetaData.item_id)
             .where(
-                models.SingleScores.scheme_id == scheme_id.scheme_id
+                (models.SingleScores.scheme_id == scheme_id.scheme_id) &
+                (models.MetaData.proxy_flag == False)
             )
         )
+
         single_score_result = session.exec(single_score_query).first()
         if not single_score_result or single_score_result[0] is None or single_score_result[1] is None:
             raise exceptions.MinMaxValueNotFoundError("Single Score", "N/A", scheme_id.scheme_id)
@@ -74,18 +85,21 @@ def get_min_max_values(
         lc_mins = {}
         lc_maxs = {}
 
-        # Fetch max and min values for each impact category
+        # Fetch max and min values for each impact category, excluding proxy items
         for impact_category_id in impact_category_ids:
             impact_category_query = (
                 select(
                     func.max(models.WeightedResults.weighted_value),
                     func.min(models.WeightedResults.weighted_value)
                 )
+                .join(models.MetaData, models.WeightedResults.item_id == models.MetaData.item_id)
                 .where(
                     (models.WeightedResults.ic_id == impact_category_id.ic_id) &
-                    (models.WeightedResults.scheme_id == scheme_id.scheme_id)
+                    (models.WeightedResults.scheme_id == scheme_id.scheme_id) &
+                    (models.MetaData.proxy_flag == False)
                 )
             )
+
             impact_category_result = session.exec(impact_category_query).first()
             if not impact_category_result or impact_category_result[0] is None or impact_category_result[1] is None:
                 raise exceptions.MinMaxValueNotFoundError(
@@ -95,16 +109,18 @@ def get_min_max_values(
             ic_maxs[impact_category_id] = schemas.LCIAValue(impact_category_result[0])
             ic_mins[impact_category_id] = schemas.LCIAValue(impact_category_result[1])
 
-        # Fetch max and min values for each lifecycle stage
+        # Fetch max and min values for each lifecycle stage, excluding proxy items
         for lifecycle_stage_id in lc_stage_ids:
             lifecycle_stage_query = (
                 select(
                     func.max(models.WeightedResults.weighted_value),
                     func.min(models.WeightedResults.weighted_value)
                 )
+                .join(models.MetaData, models.WeightedResults.item_id == models.MetaData.item_id)
                 .where(
                     (models.WeightedResults.lc_stage_id == lifecycle_stage_id.lc_stage_id) &
-                    (models.WeightedResults.scheme_id == scheme_id.scheme_id)
+                    (models.WeightedResults.scheme_id == scheme_id.scheme_id) &
+                    (models.MetaData.proxy_flag == False)
                 )
             )
             lifecycle_stage_result = session.exec(lifecycle_stage_query).first()

@@ -1,7 +1,7 @@
 import math
 from typing import (
     List,
-    Dict, Set, Tuple,
+    Dict, Set, Tuple, Union,
 )
 
 from pydantic import ValidationError
@@ -56,6 +56,25 @@ def log_scale(value: float, min_value: float, max_value: float, normalization: i
     return scaled_value / math.sqrt(normalization)
 
 
+def check_bounds(lcia_value: float, min_value: float, max_value: float) -> Union[float, None]:
+    """
+    Check if the LCIA value is within bounds.
+
+    Args:
+        lcia_value (float): The LCIA value to check.
+        min_value (float): The minimum bound for the value.
+        max_value (float): The maximum bound for the value.
+
+    Returns:
+        Union[float, None]: Returns 0 if below min, 1 if above max, None if within range.
+    """
+    if lcia_value < min_value:
+        return 0
+    elif lcia_value > max_value:
+        return 1
+    return None
+
+
 def apply_grading_scheme(
         lcia_result: schemas.LCIAResult,
         min_max_values: schemas.MinMaxValues
@@ -77,12 +96,30 @@ def apply_grading_scheme(
     single_score_min_value = min_max_values.single_score_min.lcia_value
     single_score_max_value = min_max_values.single_score_max.lcia_value
 
-    scaled_single_score = log_scale(
-        lcia_result.single_score.lcia_value,
-        single_score_min_value,
-        single_score_max_value,
-        normalization=1
-    )
+    # Initialize truncation flag for single score
+    truncation_needed = False
+    proxy_result = None
+
+    # Check proxy_flag and bounds for single score
+    if lcia_result.proxy_flag:
+        proxy_result = check_bounds(
+            lcia_value=lcia_result.single_score.lcia_value,
+            min_value=single_score_min_value,
+            max_value=single_score_max_value,
+        )
+        if proxy_result is not None:
+            truncation_needed = True
+
+    # Decide scaled value for single score based on truncation flag
+    if truncation_needed:
+        scaled_single_score = proxy_result
+    else:
+        scaled_single_score = log_scale(
+            lcia_result.single_score.lcia_value,
+            single_score_min_value,
+            single_score_max_value,
+            normalization=1
+        )
 
     try:
         graded_single_score = schemas.GradedLCIAValue(
@@ -103,13 +140,32 @@ def apply_grading_scheme(
     for stage_id, stage_value in lcia_result.stage_values.items():
         stage_min_value = min_max_values.lc_mins[stage_id].lcia_value
         stage_max_value = min_max_values.lc_maxs[stage_id].lcia_value
-
-        # Get normalization value for this stage
         normalization_value = lcia_result.ic_normalization[stage_id]
 
-        scaled_stage_value = log_scale(
-            stage_value.lcia_value, stage_min_value, stage_max_value, normalization=normalization_value
-        )
+        # Initialize truncation flag for stage values
+        truncation_needed = False
+        proxy_result = None
+
+        # Check proxy_flag and bounds for stage values
+        if lcia_result.proxy_flag:
+            proxy_result = check_bounds(
+                lcia_value=stage_value.lcia_value,
+                min_value=stage_min_value,
+                max_value=stage_max_value,
+            )
+            if proxy_result is not None:
+                truncation_needed = True
+
+        # Decide scaled value for stage values based on truncation flag
+        if truncation_needed:
+            scaled_stage_value = proxy_result
+        else:
+            scaled_stage_value = log_scale(
+                stage_value.lcia_value,
+                stage_min_value,
+                stage_max_value,
+                normalization=normalization_value
+            )
 
         try:
             graded_stages[stage_id] = schemas.GradedLCIAValue(
@@ -130,14 +186,32 @@ def apply_grading_scheme(
     for impact_category_id, impact_category_value in lcia_result.impact_category_values.items():
         impact_category_min_value = min_max_values.ic_mins[impact_category_id].lcia_value
         impact_category_max_value = min_max_values.ic_maxs[impact_category_id].lcia_value
-
-        # Get normalization value for this impact category
         normalization_value = lcia_result.lc_normalization[impact_category_id]
 
-        scaled_impact_category_value = log_scale(
-            impact_category_value.lcia_value, impact_category_min_value, impact_category_max_value,
-            normalization=normalization_value
-        )
+        # Initialize truncation flag for impact category values
+        truncation_needed = False
+        proxy_result = None
+
+        # Check proxy_flag and bounds for impact category values
+        if lcia_result.proxy_flag:
+            proxy_result = check_bounds(
+                lcia_value=impact_category_value.lcia_value,
+                min_value=impact_category_min_value,
+                max_value=impact_category_max_value,
+            )
+            if proxy_result is not None:
+                truncation_needed = True
+
+        # Decide scaled value for impact category values based on truncation flag
+        if truncation_needed:
+            scaled_impact_category_value = proxy_result
+        else:
+            scaled_impact_category_value = log_scale(
+                impact_category_value.lcia_value,
+                impact_category_min_value,
+                impact_category_max_value,
+                normalization=normalization_value
+            )
 
         try:
             graded_impact_categories[impact_category_id] = schemas.GradedLCIAValue(
@@ -158,6 +232,7 @@ def apply_grading_scheme(
     return schemas.GradedLCIAResult(
         item_id=lcia_result.item_id,
         geo_id=lcia_result.geo_id,
+        proxy_flag=lcia_result.proxy_flag,
         single_score=graded_single_score,
         stage_values=graded_stages,
         impact_category_values=graded_impact_categories
@@ -292,11 +367,16 @@ def get_results(
         # Re-raise any other exceptions with additional context
         raise exceptions.UnknownError(f"Error fetching single score: {general_exception}") from general_exception
 
-    # Step 7: Create the LCIAResult object and handle any validation errors
+    # Step 7: get the proxy flag for the item
+
+    proxy_flag = crud.get_proxy_flag(session, item_id, geo_id)
+
+    # Step 8: Create the LCIAResult object and handle any validation errors
     try:
         lcia_result = schemas.LCIAResult(
             item_id=item_id,
             geo_id=geo_id,
+            proxy_flag=proxy_flag,
             single_score=single_score,
             stage_values=stage_values,
             impact_category_values=impact_category_values,

@@ -176,11 +176,17 @@ async def calculate_recipe(
         session: Session = Depends(dependencies._get_db_session),
 ):
     """
-    Calculates the environmental impact of a recipe based on provided items, their mass and a weighting scheme. The endpoint processes the input data, retrieves Life Cycle Impact Assessment (LCIA) data for each item in the recipe from the Agribalyse database, and calculates a single score for each item and the entire recipe based on the given weighting scheme. These results are organized by life cycle stages and impact categories, with a single score and grade assigned to both each item and the recipe.
+    Calculates the environmental impact of a recipe based on provided items, their mass and a weighting scheme. The
+    endpoint processes the input data, retrieves Life Cycle Impact Assessment (LCIA) data for each item in the recipe
+    from the Agribalyse database, and calculates a single score for each item and the entire recipe based on the given
+    weighting scheme. These results are organized by life cycle stages and impact categories, with a single score and
+    grade assigned to both each item and the recipe.
 
     ### Input Data:
-    The input data includes the items that make up the recipe and - optionally - a specific weighting scheme used to assess
-    the environmental impact. If no weighting scheme is specified, the default delphi_r0110 is being used. Each item is associated with a unique identifier and a specified amount in kilograms. The weighting scheme ensures that the impact is calculated consistently according to a predefined method.
+    The input data includes the items that make up the recipe and - optionally - a specific weighting scheme used to
+    assess the environmental impact. If no weighting scheme is specified, the default delphi_r0110 is being used. Each
+    item is associated with a unique identifier and a specified amount in kilograms. The weighting scheme ensures that
+    the impact is calculated consistently according to a predefined method.
 
     ### Input Data:
 
@@ -212,8 +218,8 @@ async def calculate_recipe(
     This process consists of the following key categories:
 
     1. **Selection**:
-       - The relevant **impact categories** are selected based on the non-zero impact category weights from the default or
-       selected weighting scheme.
+       - The relevant **impact categories** are selected based on the non-zero impact category weights from the default
+       or selected weighting scheme.
        - The **life cycle stages** considered for each impact category include:
          - Agricultural stage (abbreviation: "agri")
          - Processing (abbreviation: "proc")
@@ -224,8 +230,8 @@ async def calculate_recipe(
 
     2. **Normalization**:
        - The selected values from the Agribalyse database are normalized by a specific reference value for each impact
-       category. These values are derived in accordance with Environmental Footprint 3.1 reference literature. For biodiversity,
-       a value published in the context of Agribalyse is being used.
+       category. These values are derived in accordance with Environmental Footprint 3.1 reference literature. For
+       biodiversity, a value published in the context of Agribalyse is being used.
 
     3. **Weighting**:
        - After normalization, the normalized impact values are weighted based on the applicable weighting scheme.
@@ -319,7 +325,8 @@ async def calculate_recipe(
         - Values (str): The amounts of each item in kilograms (e.g., `"1.2 kg"`).
 
       - **"Stages"** and **"Impact Categories"** (dict):
-        - Keys (str): Names of the life cycle stages (e.g., `"Agriculture"`) or impact categories (e.g., `"Climate Change"`).
+        - Keys (str): Names of the life cycle stages (e.g., `"Agriculture"`) or impact categories
+        (e.g., `"Climate Change"`).
         - Values (dict):
           - `"lcia_value"` (float): The aggregated value for the stage or impact category.
           - `"Grade"` (str): A letter representing the performance grade (e.g., `"B"`).
