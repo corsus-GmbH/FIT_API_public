@@ -741,7 +741,7 @@ class GradedLCIAResult(ExcludingBaseModel):
     """
     item_id: Optional[ItemID] = Field(default=None, description="The ID of the item this result pertains to, optional.")
     geo_id: Optional[GeoID] = Field(default=None)
-    proxy_flag: bool
+    proxy_flag: Optional[bool] = Field(default=None)
     single_score: GradedLCIAValue
     stage_values: Dict[LCStageID, GradedLCIAValue]
     impact_category_values: Dict[ImpactCategoryID, GradedLCIAValue]
