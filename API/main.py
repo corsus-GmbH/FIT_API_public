@@ -235,7 +235,13 @@ async def calculate_recipe(
 
     3. **Weighting**:
        - After normalization, the normalized impact values are weighted based on the applicable weighting scheme.
-
+       - Available weighting schemes are:
+         - "ef31_r0510": EF 3.1 weighting and robustness factors between 0.5 and 1.0,
+         - "ef31_r0110": EF 3.1 weighting and robustness factors between 0.1 and 1.0,
+         - "ef31_nr": EF 3.1 weighting and no robustness adjustments,
+         - "delphi_r0510": Delphi weighting and robustness factors between 0.5 and 1.0,
+         - "delphi_r0110": Delphi weighting and robustness factors between 0.1 and 1.0,
+         - "delphi_nr": Delphi weighting and no robustness adjustments.
 
     4. **Aggregation**:
        - **Life Cycle Stages (LC Stages)**: For each selected  life cycle stage (e.g., Agriculture, Processing),
