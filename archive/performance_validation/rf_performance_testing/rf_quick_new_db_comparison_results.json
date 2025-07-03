@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-07-28 16:08:57",
+  "items_tests": {
+    "5 items": {
+      "original": [
+        14.018863439559937
+      ],
+      "optimized": [
+        0.016861677169799805,
+        0.017801284790039062,
+        0.013417243957519531
+      ],
+      "improvement": 874.7173502328142
+    },
+    "50 items": {
+      "original": [
+        14.47691535949707
+      ],
+      "optimized": [
+        0.013695001602172852,
+        0.014523744583129883,
+        0.014500141143798828
+      ],
+      "improvement": 1016.6637942581596
+    },
+    "100 items": {
+      "original": [
+        21.054012298583984
+      ],
+      "optimized": [
+        0.019536733627319336,
+        0.01779627799987793,
+        0.023673057556152344
+      ],
+      "improvement": 1035.3402168220791
+    }
+  },
+  "recipe_tests": {
+    "1 item": {
+      "original": [],
+      "optimized": []
+    },
+    "3 items": {
+      "original": [],
+      "optimized": []
+    }
+  },
+  "consistency_tests": {
+    "items_identical": false,
+    "recipe_identical": false
+  }
+}

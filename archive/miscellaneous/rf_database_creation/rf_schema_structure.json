@@ -1,0 +1,473 @@
+{
+  "geographies": {
+    "columns": [
+      {
+        "name": "geo_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "international_code",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "geo_shorthand_2",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "geo_shorthand_3",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "country_name",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      }
+    ],
+    "foreign_keys": [],
+    "record_count": 249
+  },
+  "groups": {
+    "columns": [
+      {
+        "name": "group_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "group_name",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      }
+    ],
+    "foreign_keys": [],
+    "record_count": 11
+  },
+  "impactcategories": {
+    "columns": [
+      {
+        "name": "ic_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "ic_name",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "ic_shorthand",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "normalization_value",
+        "type": "FLOAT",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "normalization_unit",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      }
+    ],
+    "foreign_keys": [],
+    "record_count": 17
+  },
+  "impactcategoryweights": {
+    "columns": [
+      {
+        "name": "scheme_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "ic_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "ic_weight",
+        "type": "FLOAT",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "column": "ic_id",
+        "references_table": "impactcategories",
+        "references_column": "ic_id"
+      },
+      {
+        "column": "scheme_id",
+        "references_table": "weightingschemes",
+        "references_column": "scheme_id"
+      }
+    ],
+    "record_count": 102
+  },
+  "lifecyclestages": {
+    "columns": [
+      {
+        "name": "lc_stage_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "lc_stage_shorthand",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "lc_name",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      }
+    ],
+    "foreign_keys": [],
+    "record_count": 6
+  },
+  "metadata": {
+    "columns": [
+      {
+        "name": "item_id",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "geo_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "code_ciqual",
+        "type": "VARCHAR",
+        "not_null": false,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "name_lci",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "group_id",
+        "type": "INTEGER",
+        "not_null": false,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "subgroup_id",
+        "type": "INTEGER",
+        "not_null": false,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "proxy_flag",
+        "type": "BOOLEAN",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "column": "subgroup_id",
+        "references_table": "subgroups",
+        "references_column": "subgroup_id"
+      },
+      {
+        "column": "group_id",
+        "references_table": "groups",
+        "references_column": "group_id"
+      },
+      {
+        "column": "geo_id",
+        "references_table": "geographies",
+        "references_column": "geo_id"
+      }
+    ],
+    "record_count": 1939
+  },
+  "normalizedlciavalues": {
+    "columns": [
+      {
+        "name": "item_id",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "geo_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "ic_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "lc_stage_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "normalized_lcia_value",
+        "type": "FLOAT",
+        "not_null": false,
+        "default_value": null,
+        "primary_key": false
+      },
+      {
+        "name": "non_normalized_lcia_value",
+        "type": "FLOAT",
+        "not_null": false,
+        "default_value": null,
+        "primary_key": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "column": "lc_stage_id",
+        "references_table": "lifecyclestages",
+        "references_column": "lc_stage_id"
+      },
+      {
+        "column": "ic_id",
+        "references_table": "impactcategories",
+        "references_column": "ic_id"
+      },
+      {
+        "column": "geo_id",
+        "references_table": "geographies",
+        "references_column": "geo_id"
+      },
+      {
+        "column": "item_id",
+        "references_table": "metadata",
+        "references_column": "item_id"
+      }
+    ],
+    "record_count": 267079
+  },
+  "singlescores": {
+    "columns": [
+      {
+        "name": "item_id",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "geo_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "scheme_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "single_score",
+        "type": "FLOAT",
+        "not_null": false,
+        "default_value": null,
+        "primary_key": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "column": "scheme_id",
+        "references_table": "weightingschemes",
+        "references_column": "scheme_id"
+      },
+      {
+        "column": "geo_id",
+        "references_table": "geographies",
+        "references_column": "geo_id"
+      },
+      {
+        "column": "item_id",
+        "references_table": "metadata",
+        "references_column": "item_id"
+      }
+    ],
+    "record_count": 24652
+  },
+  "subgroups": {
+    "columns": [
+      {
+        "name": "subgroup_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "subgroup_name",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      }
+    ],
+    "foreign_keys": [],
+    "record_count": 61
+  },
+  "weightedresults": {
+    "columns": [
+      {
+        "name": "item_id",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "geo_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "ic_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "lc_stage_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "scheme_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "weighted_value",
+        "type": "FLOAT",
+        "not_null": false,
+        "default_value": null,
+        "primary_key": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "column": "scheme_id",
+        "references_table": "weightingschemes",
+        "references_column": "scheme_id"
+      },
+      {
+        "column": "lc_stage_id",
+        "references_table": "lifecyclestages",
+        "references_column": "lc_stage_id"
+      },
+      {
+        "column": "ic_id",
+        "references_table": "impactcategories",
+        "references_column": "ic_id"
+      },
+      {
+        "column": "geo_id",
+        "references_table": "geographies",
+        "references_column": "geo_id"
+      },
+      {
+        "column": "item_id",
+        "references_table": "metadata",
+        "references_column": "item_id"
+      }
+    ],
+    "record_count": 1602459
+  },
+  "weightingschemes": {
+    "columns": [
+      {
+        "name": "scheme_id",
+        "type": "INTEGER",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": true
+      },
+      {
+        "name": "name",
+        "type": "VARCHAR",
+        "not_null": true,
+        "default_value": null,
+        "primary_key": false
+      }
+    ],
+    "foreign_keys": [],
+    "record_count": 6
+  }
+}

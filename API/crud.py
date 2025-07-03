@@ -5,7 +5,7 @@ It includes functions to fetch LCI values, stage IDs, and impact category IDs.
 
 from typing import (
     List,
-    Union, Dict, Tuple, Set,
+    Union, Dict, Tuple, Set, Optional,
 )
 
 import pydantic
@@ -706,12 +706,14 @@ def get_item_info(session: Session, item_id: schemas.ItemID, geo_id: schemas.Geo
         raise exceptions.UnknownError(f"An unexpected error occurred: {str(general_exception)}")
 
 
-def get_all_items_info(session: Session) -> schemas.AllItems:
+def get_all_items_info(session: Session, skip: int = 0, limit: Optional[int] = None) -> schemas.AllItems:
     """
     Return an AllItems object containing a list of ItemInfo objects.
 
     Args:
         session (Session): The database session.
+        skip (int): Number of items to skip for pagination.
+        limit (Optional[int]): Maximum number of items to return. If None, returns all items.
 
     Returns:
         schemas.AllItems: An object representing a list of schemas.ItemInfo objects.
@@ -721,15 +723,50 @@ def get_all_items_info(session: Session) -> schemas.AllItems:
         exceptions.UnknownError: If an unexpected error occurs.
     """
     try:
-        # Fetch all item and geo IDs from the MetaData model
-        statement = select(models.MetaData.item_id, models.MetaData.geo_id)
+        # Single optimized query with JOINs to fetch all required data
+        statement = select(
+            models.MetaData.item_id,
+            models.MetaData.geo_id,
+            models.MetaData.name_lci,
+            models.MetaData.group_id,
+            models.MetaData.subgroup_id,
+            models.MetaData.proxy_flag,
+            models.Geographies.geo_shorthand_3,
+            models.Geographies.country_name,
+            models.Geographies.international_code,
+            models.Groups.group_name,
+            models.Subgroups.subgroup_name
+        ).join(
+            models.Geographies, models.MetaData.geo_id == models.Geographies.geo_id
+        ).outerjoin(
+            models.Groups, models.MetaData.group_id == models.Groups.group_id
+        ).outerjoin(
+            models.Subgroups, models.MetaData.subgroup_id == models.Subgroups.subgroup_id
+        )
+
+        # Apply pagination
+        if skip > 0:
+            statement = statement.offset(skip)
+        if limit is not None:
+            statement = statement.limit(limit)
+
         results = session.exec(statement).all()
 
+        # Convert results to ItemInfo objects
         items: List[schemas.ItemInfo] = []
-
-        # Loop through all items and fetch detailed information using the new helper function
         for result in results:
-            item_info = get_item_info(session, schemas.ItemID(result.item_id), schemas.GeoID(result.geo_id))
+            # Create composite key like "itemid-country_acronym"
+            composite_key = f"{result.item_id}-{result.geo_shorthand_3}"
+            
+            item_info = schemas.ItemInfo(
+                composite_key=composite_key,
+                product_name=result.name_lci,
+                country=result.country_name,
+                international_code=result.international_code,
+                group=result.group_name,
+                subgroup=result.subgroup_name,
+                proxy=result.proxy_flag
+            )
             items.append(item_info)
 
         # Return an AllItems object with the list of ItemInfo objects

@@ -1,0 +1,1940 @@
+item_id,name_lci,old_non_proxy_count,old_proxy_count,new_non_proxy_count,new_proxy_count,old_pattern,new_pattern,change_type,old_total_records,new_total_records,record_count_change
+10001,"Squid, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10002,"Squid fritter, Roman-style",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10003,"Scallop, with coral, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10011,"Oyster, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10014,"Mussel, common, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10026,"Mediterranean mussel, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10028,"Mussel, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10035,"Pacific oyster, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10036,"European oyster, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10045,"Scallop, without coral, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10048,"American or Canadian sea scallop, without coral, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10049,"Peru sea scallop, without coral, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10081,"Mussels, in Catalan-style sauce or marinade (tomatoes), canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10082,"Mussels, in a shallot and white wine broth",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+10083,"Mussels, filled (fat, parsley and garlic…)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11000,"Garlic, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11002,"Chervil, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11003,"Chive or spring onion, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11006,"Ginger, powder",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11007,"Gelatine, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11008,Ketchup,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11009,Nutritional yeast,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11010,"Baker's yeast, compressed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11013,Mustard,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11014,"Parsley, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11016,"Horseradish, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11017,"Salt, white, for human consumption (sea, igneous or rock), no enrichment",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11018,Vinegar,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11021,"Mustard, with grains",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11023,"Garlic, powder, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11024,"Parsley, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11026,"Coriander, seed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11027,"Mint, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11032,"Basil, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11033,"Basil, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11034,"Marjoram, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11035,"Oregano, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11036,"Rosemary, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11037,"Sage, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11038,"Thyme, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11043,"Tapenade (a puree of capers, pitted black olives, anchovy and herbs, with olive oil and lemon juice",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11044,Celery salt,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11045,"Baker's yeast, dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11046,Baking powder or raising agent,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11048,Nutmeg,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11051,"Tartare sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11053,"Bay, leaves",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11054,Mayonnaise (70% fat and more),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11058,"Salt, white, for human consumption (sea, igneous or rock), iodine added, no other enrichment",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11060,"Provence herbs, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11061,"Poppy, seed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11062,"Savory, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11065,"Vanilla, alcoholic extract",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11066,"Fennel, seed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11068,"Rosemary, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11069,"Sage, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11070,"Thyme, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11074,"Ginger, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11079,"Mayonnaise, reduced fat or light mayonnaise",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11082,"Pure sea salt, no enrichment",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11083,"Sea salt, grey, no enrichment",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11084,"Seaweed, agar, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11086,"Spirulina, (spirulina sp.), dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11090,"Vinegar, cider",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11091,"Vinegar, balsamic",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11092,"Tarragon, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11093,"Dill, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11094,"Coriander, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11098,"Vanilla, aqueous extract",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11100,"Barbecue sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11101,"Bechamel sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11102,"Bearnaise sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11104,"Soy sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11105,"Hollandaise sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11107,"Tomato sauce, with onions, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11110,"Salad dressing, (50-75% of oil), prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11111,"Armorican-style sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11112,"Harissa (hot spicy sauce), prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11114,"Tomato sauce, with meat or Bolognese sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11115,"Green pepper sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11120,"Burgundy-style sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11121,"Madeira wine sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11128,"Carbonara sauce (cream sauce with lardoons), prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11129,"Hunter-style sauce (a garnish of mushrooms, shallots and tomatoes in white wine sauce), prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11132,"Curry sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11140,"White butter sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11143,"Bechamel sauce, home-made",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11158,"Sauce, butter, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11160,"Mushroom sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11163,"Sweet and sour sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11164,Red wine sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11166,Yogurt sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11167,"American-style sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11168,"Aioli sauce (garlic and olive oil mayonnaise), prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11170,"Basque-style sauce or tomato sauce with sweet peppers, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11172,"Aromatic stock cube, for fish, dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11177,"Tomato sauce, w mushrooms, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11178,"Tomato sauce, w olives, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11179,"Sauce, pesto, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11182,"Sauce, pepper, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11187,"Salad dressing, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11189,"Cheese sauce for risotto or pasta, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11191,"Roquefort (blue cheese) sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11192,"Cream sauce with mushrooms, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11194,"Nuoc mam sauce or fish sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11196,"Burger sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11198,"Salad dressing, reduced fat, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11199,"Grand veneur sauce (a reduction of red wine with garlic, shallots and red currant jelly), prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11202,"Indian-style sauce, tandoori or garam masala type, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11205,"Mayonnaise flavoured with garlic, chilli pepper and fish broth, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11207,"Tomato sauce, w vegetables, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11208,"Tomato sauce, w cheese, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11210,"Sauce, pesto rosso, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11212,"Sauce, pepper, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11214,"Soy ""cream"" preparation",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11300,Chocolate sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+11507,Sodium bicarbonate,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12001,"Camembert cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12003,Soft-ripened cheese with bloomy rind (Camembert-type cheese),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12006,"Camembert cheese, from cow's milk, from raw milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12008,"Soft-ripened cheese, double cream, around 30% fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12009,"Soft-ripened round cheese with bloomy rind, 5 to 11% fat, Camembert-type cheese, reduced fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12010,"Coulommiers cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12012,"Soft-ripened round cheese with bloomy rind, around 11% fat, Coulommiers-type cheese, reduced fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12013,"Soft-ripened round cheese with bloomy rind, around 5% fat, Camembert-type cheese, reduced fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12020,"Brie cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12021,"Brie de Meaux cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12022,"Brie de Melun cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12025,"Carré de l'Est cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12028,"Chaource cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12029,"Maroilles ""laitier"" cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12030,"Maroilles ""fermier"" cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12031,"Neufchâtel cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12033,"Soft-ripened cheese, triple cream, around 40% fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12035,"Soft-ripened washed-rind cheese, reduced fat, around 13% fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12036,"Maroilles cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12037,"Livarot cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12038,"Époisses cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12039,"Munster cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12040,"Langres cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12042,"Pont l'Evêque cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12045,"Reblochon cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12047,"Soft-ripened washed-rind cheese, from pasteurised milk (Vieux pané-type cheese)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12049,"Saint-Marcellin cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12050,"Soft -ripened washed, bloomy and coloured rind cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12051,"Vacherin cheese or Mont d'or cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12052,"Saint-Felicien cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12060,Feta-type cheese from cow's milk,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12061,"Feta cheese, from ewe's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12063,"Feta-type cheese from cow's milk, in oil and spices",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12105,"Beaufort cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12110,"Comté cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12112,"Abondance cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12113,"Gruyere cheese, France, Protected Geographical Indication, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12114,"Gruyere cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12115,"Emmental cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12116,"Hard cheese, emmental-type cheese, reduced fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12118,"Emmental cheese, grated, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12119,"Ossau-Iraty cheese, from ewe's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12120,"Parmesan cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12121,"Fontina cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12123,"Grana Padano cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12300,"Processed cheese, in slices",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12310,"Processed cheese, around 20% fat, in wedges or cubes",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12315,"Uncured soft cheese, spreadable, around 25% fat, in a tub",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12320,"Processed cheese, double cream, around 31% fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12340,"Uncured soft cheese, spreadable, around 20% fat, in a tub",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12355,Processed cheese with fresh cream cheese and walnuts,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12356,"Processed cheese snack w breadsticks, for children",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12500,"Roquefort cheese, from ewe's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12519,Fourme de Montbrison cheese,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12520,"Blue cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12521,"Auvergne blue cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12522,"Fourme d'Ambert cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12523,"Causses blue cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12524,"Gorgonzola cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12526,"Gex blue cheese, or Jura blue cheese or Septmoncel blue cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12527,"Bresse blue cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12528,"Bresse blue cheese, from cow's milk, reduced fat, around 15% fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12705,"Firm cheese, around 14% fat, Maasdam-type cheese, reduced fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12716,"Provolone cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12722,"Cantal cheese, half matured, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12723,"Cantal, Salers or Laguiole cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12725,"Salers cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12726,"Cheddar cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12729,"Edam cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12735,"Mimolette cheese, young, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12736,"Gouda cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12737,"Mimolette cheese, half-old, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12738,"Mimolette cheese, old, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12740,"Mimolette cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12741,"Firm cheese, around 27% fat, Maasdam-type cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12742,"Mimolette cheese, extra old, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12743,"Morbier cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12747,"Pyrénées cheese, from ewe's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12748,"Saint-Nectaire cheese, from cow's milk, milks collected in many farms",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12749,"Raclette cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12751,"Saint-Nectaire cheese, from cow's milk, milk collected in an unique farm",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12752,"Saint-Nectaire cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12755,"Saint-Paulin cheese, from cow's milk (semi-hard cheese)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12758,"Tomme cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12759,"Tomme cheese, from mountain or Savoy",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12760,"Tomme cheese, reduced fat, around 13% fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12761,"Asiago cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12762,"Corsica soft ripened cheese, from ewe's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12763,Tomme cheese (PDO) from the French Bauges munntains,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12800,"Cheese, from goat's milk, fresh, from pasteurised milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12801,"Cheese, from goat's milk, from raw milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12802,"Cheese, from goat's milk, from pasteurised milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12803,"Cheese, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12804,"Cheese, from goat's milk, fresh, from raw milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12805,"Cheese, from goat's milk, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12807,Goat cheese from raw milk,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12810,"Cheese, semi-dry, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12812,"Cheese, buche, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12813,"Cheese, buche, from goat's milk, light",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12814,"Soft-ripened cheese, from goat's milk, from pasteurised milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12815,"Cheese, dry, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12820,"Soft-ripened cheese with bloomy rind, from goat's milk, Camembert-type cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12824,"Soft ripened cheese with bloomy rind, from ewe's milk, Camembert-type cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12827,"Semi-hard cheese, from ewe's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12830,"Chabichou cheese, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12831,"Pélardon cheese, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12832,"Crottin cheese, from goat's milk, from raw milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12833,"Crottin cheese, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12834,"Crottin de Chavignol cheese, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12836,"Picodon cheese, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12839,"Pouligny Saint-Pierre cheese, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12842,"Sainte Maure cheese, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12845,"Selles-sur-Cher cheese, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12846,"Chevrot cheese, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12847,"Rocamadour cheese, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+12848,"Valençay cheese, from goat's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13000,"Apricot, pitted, raw",1,0,1,14,NP:1,"NP:1,P:14",Gained Proxy Versions,1,15,14
+13001,"Apricot, pitted, dried",1,0,1,14,NP:1,"NP:1,P:14",Gained Proxy Versions,1,15,14
+13002,"Pineapple, pulp, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13004,"Avocado, pulp, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13005,"Banana, pulp, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13008,"Cherry, pitted, raw",1,0,1,8,NP:1,"NP:1,P:8",Gained Proxy Versions,1,9,8
+13009,"Lemon, pulp, raw",0,1,1,10,P:1,"NP:1,P:10",No Change,1,11,10
+13010,"Quince, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13012,"Fig, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13013,"Fig, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13014_1,"Strawberry, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13014_2,"Strawberry, in-season, raw",1,0,1,10,NP:1,"NP:1,P:10",Gained Proxy Versions,1,11,10
+13014_3,"Strawberry, off-season, raw",1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+13015,"Raspberry, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13016,"Passion fruit, pulp and pips, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13018,"Pomegranate, pulp and pips, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13020,"Gooseberry, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13021,"Kiwi fruit, pulp and seeds, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13023,"Lychee, pulp, raw",0,1,1,10,P:1,"NP:1,P:10",No Change,1,11,10
+13024_1,"Mandarin, pulp, raw",1,0,1,7,NP:1,"NP:1,P:7",Gained Proxy Versions,1,8,7
+13024_2,"Clementine, pulp, raw",1,0,1,7,NP:1,"NP:1,P:7",Gained Proxy Versions,1,8,7
+13025_1,"Mango, pulp, raw",0,1,1,10,P:1,"NP:1,P:10",No Change,1,11,10
+13025_2,"Mango, pulp, raw (Brazil by plane)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13026,"Melon, cantaloupe (ex Cavaillon or Charentais melon), pulp, raw",1,0,1,12,NP:1,"NP:1,P:12",Gained Proxy Versions,1,13,12
+13028,"Blueberry, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13029,"Blackberry, raw",1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+13030,"Nectarine, pulp and peel, raw",1,0,1,6,NP:1,"NP:1,P:6",Gained Proxy Versions,1,7,6
+13034,"Orange, pulp, raw",0,1,1,13,P:1,"NP:1,P:13",No Change,1,14,13
+13035,"Papaya, pulp, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13036,"Watermelon, pulp, raw",1,0,1,12,NP:1,"NP:1,P:12",Gained Proxy Versions,1,13,12
+13037,"Pear, pulp and peel, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13038,Apple compote,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13039,"Apple, pulp and peel, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13040,"Grapefruit, pulp, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13041,"Greengage plum, raw",1,0,1,8,NP:1,"NP:1,P:8",Gained Proxy Versions,1,9,8
+13042,Prune,1,0,1,8,NP:1,"NP:1,P:8",Gained Proxy Versions,1,9,8
+13043,"Peach, pulp and peel, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13044,"Grape, white, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13045,"Grape, red, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13046,Raisin,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13047,"Rhubarb, stalk, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+13050,"Apple, pulp, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13054,"Carambola, pulp, raw",0,1,1,10,P:1,"NP:1,P:10",No Change,1,11,10
+13063,"Prickly pear, pulp and seeds, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13066,"Persimmon, pulp, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13067,"Lime, pulp, raw",0,1,1,10,P:1,"NP:1,P:10",No Change,1,11,10
+13071,"Black mulberry, raw",1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+13083,"Guava, pulp, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13085,"Apple, Canada, pulp, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13089,"Banana, pulp, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13100,"Plum, raw",1,0,1,8,NP:1,"NP:1,P:8",Gained Proxy Versions,1,9,8
+13107,"Pear, peeled, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13108,"Fruits compote, miscellaneous",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13109,"Fruits compote, miscellaneous, reduced sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13110,"Morello cherry, raw",1,0,1,8,NP:1,"NP:1,P:8",Gained Proxy Versions,1,9,8
+13111,"Apple, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13112,"Grape, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13113,"Cranberry, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13118,"Peach, dried",1,0,1,6,NP:1,"NP:1,P:6",Gained Proxy Versions,1,7,6
+13125,"Lemon zest, raw",0,1,1,10,P:1,"NP:1,P:10",No Change,1,11,10
+13126,"Elderberry, berries, raw",1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+13129,"Fruits compote, miscellaneous, reduced sugar, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13132,"Blueberry, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13134,"Fruit salad, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13136,"Raspberry, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13147,"Olive, green, stuffed (anchovy, sweet peppers, etc…)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13150,"Blackberry, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13152,"Fruits dessert, all types (fruits dessert's sugar content is less than fruits compote but more than fruits compote reduced sugar)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13153,"Fruits puree, without sugar added",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13157,Baby food jar with banana,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13158,Baby food jar without banana,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13159,Fruit-based beverage for baby from 4/6 months,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13161,Dairy cereal-based beverage with vegetables for baby's dinner from 4/6 months,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13162,Dairy cereal-based beverage with fruits for baby's snack from 4/6 months,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13163,Dairy cereal-based beverage for baby's breakfast from 4/6 months,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13164,"Dairy dessert for baby, custard type",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13165,"Dairy dessert for baby, with rice or semolina",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13166,"Dairy dessert for baby, plain with sugar or with fruits",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13167,Instant cereal (powder to be reconstituted) for baby from 4/6 months,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13168,Instant cereal (powder to be reconstituted) for baby from 6 months,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13169,Dairy cereal-based beverage for baby's breakfast from 8/9 months,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13170,Dairy cereal-based beverage for baby's breakfast from 12 months,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13173,Dairy cereal-based beverage for baby's breakfast,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13179,"Grapefruit, yellow, pulp, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13180,"Grapefruit, red or pink, pulp, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13549,"Kumquat, without pips, raw",0,1,1,13,P:1,"NP:1,P:13",No Change,1,14,13
+13614,"Pummelo, pulp, raw",0,1,1,13,P:1,"NP:1,P:13",No Change,1,14,13
+13620,"Apple, var. Golden, pulp and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13706,"Fruit cocktail or salad, canned in syrup, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13707,"Fruit cocktail or salad, canned in syrup, not drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13708,"Fruit cocktail or salad, canned in light syrup, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13709,"Fruit cocktail or salad, canned in light syrup, not drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13712,"Apricot, canned in light syrup, drained",1,0,1,14,NP:1,"NP:1,P:14",Gained Proxy Versions,1,15,14
+13713,"Apricot, canned in light syrup, not drained",1,0,1,14,NP:1,"NP:1,P:14",Gained Proxy Versions,1,15,14
+13714,"Apricot, in syrup, canned, drained",1,0,1,14,NP:1,"NP:1,P:14",Gained Proxy Versions,1,15,14
+13715,"Apricot, in syrup, canned, not drained",1,0,1,14,NP:1,"NP:1,P:14",Gained Proxy Versions,1,15,14
+13716,"Pineapple, in pineapple juice and syrup, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13717,"Pineapple, in pineapple juice and syrup, canned, not drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13718,"Pineapple, in light syrup, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13719,"Pineapple, in light syrup, canned, not drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13730,"Peach, canned in light syrup, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13731,"Peach, canned in light syrup, not drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13735,"Pear, canned in light syrup, not drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+13742,"Melon, honeydew, pulp, raw",1,0,1,12,NP:1,"NP:1,P:12",Gained Proxy Versions,1,13,12
+13997,"Red berries (raspberries, strawberries, red currants, black currants) , raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15000,"Almond, (with peel)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15001,Peanut,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15004,Hazelnut,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15005,"Walnut, dried, husked",1,0,1,7,NP:1,"NP:1,P:7",Gained Proxy Versions,1,8,7
+15006,"Coconut, ripe kernel, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15007,"Coconut, kernel, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15008,Brazil nut,0,1,1,9,P:1,"NP:1,P:9",No Change,1,10,9
+15010,Sesame seed,1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+15011,Sunflower seed,0,1,1,8,P:1,"NP:1,P:8",No Change,1,9,8
+15013,Chestnut cream,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15014,"Coconut, immature kernel, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15016,"Chestnut cream, vanilla flavoured, canned",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15018,Mix of salted grains/nuts and raisins,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15023,"Walnut, fresh",1,0,1,7,NP:1,"NP:1,P:7",Gained Proxy Versions,1,8,7
+15024,"Chestnut, raw",1,0,1,7,NP:1,"NP:1,P:7",Gained Proxy Versions,1,8,7
+15025,Pine nuts,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15026,Pecan nut,0,1,1,7,P:1,"NP:1,P:7",No Change,1,8,7
+15027,Macadamia nut,1,0,1,7,NP:1,"NP:1,P:7",Gained Proxy Versions,1,8,7
+15028,"Cucurbitacea, seed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15029,"Alfalfa seeds, sprouted, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15032,"Alphalfa seeds, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15034,Flaxseed,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15035,"Sesame seed, husked",1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+15039,"Chestnut, canned",1,0,1,7,NP:1,"NP:1,P:7",Gained Proxy Versions,1,8,7
+15041,"Almond, peeled, unpeeled or blanched",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15046,"Pecan nut, salted",1,0,1,7,NP:1,"NP:1,P:7",Gained Proxy Versions,1,8,7
+15047,"Seeds, chia, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15048,Mix of unsalted grains/nuts and dried fruit,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15049,Mix of unsalted grains/nuts and raisins,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15052,"Flaxseed, brown",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15201,"Almond paste or marzipan, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15202,Peanut butter or peanut paste,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+15203,Tahini (sesame paste),1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+16030,Cocoa butter,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16080,"Solid vegetable fat (margarine type), for frying",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16128,Frying oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16129,Palm oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16150,"Palm oil, refined",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16400,"Butter, 82% fat, unsalted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16401,Butter oil or concentrated butter,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16402,"Butter, 80% fat, lightly salted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16403,"Butter, 80% fat, salted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16404,"Butter, 82% fat, unsalted, easy-to-spread",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16410,"Butter, 60-62% fat, light, unsalted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16411,"Butter, 60-62% fat, light, lightly salted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16415,"Butter, light, 39-41% fat, unsalted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16520,Lard or pork fat,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16530,"Pork fat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16540,Chicken fat,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16550,Duck fat,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16560,Goose fat,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16570,Turkey fat,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16614,"Vegetable fat (like margarine), 80% fat, salted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16615,"Vegetable fat (margarine type), 80% fat, unsalted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16616,"Vegetable fat (margarine type), 70% fat, unsalted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16654,"Vegetable fat (margarine type), 60% fat, unsalted, sunflowerseed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16712,"Dairy fat 25% fat, light, spreadable, unsalted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16713,"Dairy fat 20% fat, light, spreadable, unsalted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16733,"Vegetable fat (margarine type), spreadable, 30-40% fat, light, unsalted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16734,"Vegetable fat (margarine type), spreadable, 30-40% fat, light, lightly salted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16736,"Vegetable fat (margarine type), spreadable, 30-40% fat, light, unsalted, rich in omega 3",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16737,"Vegetable fat (margarine type), spreadable, 50-63% fat, light, unsalted, rich in omega 3",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16738,"Vegetable fat (margarine type), 50-63% fat, light, lightly salted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16739,"Vegetable fat (margarine type), spreadable, 50-63% fat, light, unsalted, with plant sterols esters",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16740,"Vegetable fat (margarine type), spreadable, 50-63% fat, light, lightly salted, rich in omega 3",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16741,"Vegetable fat (margarine type), spreadable, 50-63% fat, light, unsalted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16742,"Vegetable fat (margarine type), spreadable, 30-40% fat, light, lightly salted, with plant sterols esters",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16743,"Blended fat (vegetable and animal origins), 50-63% fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16744,"Blended fat (vegetable and animal origins), 50-63% fat, lightly salted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16745,"Blended fat (vegetable and animal origins), spreadable, 30-40% fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+16746,"Blended fat (vegetable and animal origins), spreadable, 30-40% fat, lightly salted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17040,Peanut oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17130,Rapeseed oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17170,Cottonseed oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17180,Linseed oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17190,Maize/corn oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17210,Hazelnut oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17270,"Olive oil, extra virgin",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17350,Grapeseed oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17400,Sesame oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17420,Soy oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17440,Sunflower oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17630,Cod liver oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17640,Sardine oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17645,Salmon oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17650,Herring oil,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17700,Combined oil (blended vegetable oils),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+17701,Combined oil (mix of olive oil and seeds oil),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18003,"Coffee, ground",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18005,"Coffee, powder, instant, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18010,"Lemonade, with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18012,"Bottled water, flavoured, w sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18013,"Tonic drink, without sugar, with artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18014,"Tonic drink, with sugar and artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18015,"Still soft drink with tea extract, with sugar and artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18016,"Lemonade, with sugar and artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18018,"Cola, with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18019,"Fruit soft drink, carbonated (10-50% of fruit juice), with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18020,"Tea, brewed, without sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18021,"Fruit soft drink, still (less than 10% of fruit juice), without sugar and with artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18022,"Infusion, brewed, without sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18023,"Fruit soft drink, still (less than 10% of fruit juice), with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18026,"Soft drink, carbonated, without fruit juice, with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18028,"Bottled water, flavoured, without sugar and artificial sweeteners",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18030,"Bottled water, flavoured, without sugar and with artificial sweeteners",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18033,"Fruit soft drink, carbonated (less than 10% of fruit juice), with sugar and artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18035,"Lemonade, without sugar, with artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18037,"Cola, with sugar and artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18039,Lemonade with a flavoured syrup,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18041,Coconut milk or coconut cream,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18049,"Fruit soft drink, carbonated (less than 10% of fruit juice), with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18060,"Cola, without sugar and with artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18065,"Still soft drink with tea extract, flavoured, without sugar and with artificial sweeteners",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18067,"Cola, with sugar and without caffeine",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18068,"Cola, without sugar, with artificial sweetener(s) and with caffeine",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18069,"Decaffeinated coffee, powder, instant, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18075,"Still soft drink with tea extract, flavoured, with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18078,"Soft drink, carbonated, without fruit juice, with sugar and artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18100,"Cocoa powder, without sugar, powder, instant, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18101,"Cocoa or chocolate powder, for beverages, with sugar, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18107,"Almond drink not sweet, not fortified, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18150,"Mix of chicory and coffee, powder, instant, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18152_1,"Chicory, powder, instant, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18154,"Black tea, brewed, without sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18155,"Green tea, brewed, without sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18156,"Oolong tea, brewed, without sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18160,"Coffee with milk or Cappuccino, powder, instant, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18163,"Coffee with milk or Cappuccino with chocolate, powder, instant, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18167,"Cocoa or chocolate powder, for beverages, with sugar, fortified with vitamins and chemical elements, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18168,"Cocoa or chocolate powder, for beverages, with sugar, fortified with vitamins, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18220,"Lemon or lime base, for beverage, without sugar (to be diluted)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18304,"Fruit soft drink, still (10-50% of fruit juice), reduced sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18309,"Fruit soft drink, still (fruit juice content unspecified), with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18339,"Fruit soft drink, still (10-50% of fruit juice), with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18340,"Fruit soft drink, carbonated (less than 10% of fruit juice), without sugar and with artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18343,Fruit juice with milk,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18344,"Tonic drink, with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18345,"Fruit soft drink, carbonated (less than 10% of fruit juice), without sugar and artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18352,"Energy drink, with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18353,"Energy drink, without sugar and with artificial sweetener(s)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18430,"Water, bottled",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+18900,"Soy drink, plain, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18901,"Soy drink, plain, fortified with calcium",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18902,"Soy drink, flavoured, with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18903,"Soy drink, flavoured, enriched in calcium, w sugar or fruit concentrate",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18904,"Rice-based drink, plain",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+18905,"Oat-based drink, plain, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19012,"Baby milk, growing up milk, ready to feed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19013,"Baby milk, first milk, ready to feed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19014,"Baby milk, follow on milk, ready to feed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19021,"Milk, powder, whole, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19023,"Milk, whole, UHT",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19024,"Milk, whole, pasteurised",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19026,"Condensed milk, without sugar, whole",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19027,"Condensed milk, with sugar, whole",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19041,"Milk, semi-skimmed, UHT",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19042,"Milk, semi-skimmed, pasteurised",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19044,"Milk, powder, semi-skimmed, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19050,"Milk, skimmed, UHT",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19051,"Milk, skimmed, pasteurised",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19054,"Milk, powder, skimmed, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19060,"Milk, semi-skimmed, reduced lactose",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19122,"Chocolate flavoured milk, with sugar, partially skimmed, fortified with vitamins and chemicals elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19127,"Strawberry flavoured milk, with sugar, partially skimmed, fortified with vitamins D",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19200,"Goat milk, whole, UHT",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19201,"Goat milk, half skimmed, UHT pasteurized",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19202,"Goat milk, whole, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19250,"Sheep milk, whole",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19508,"Dairy drink or fermented milk or yogurt, flavoured, with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19530,"Uncured soft cheese, spreadable, around 30-40% fat, flavoured (ex : garlic and herbs)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19535,"Dairy drink or fermented milk or yogurt, with fruits, with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19538,"Dairy drink or fermented milk or yogurt, plain, with sugar, with L Casei",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19539,"Fermented milk or dairy specialty, yogurt type, flavoured, with sugar, with bifidus",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19542,"Fermented milk or dairy specialty, yogurt type, with fruits, with sugar, with bifidus",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19546,"Fermented milk or dairy specialty, yogurt type, plain, with bifidus",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19550,"Yogurt, Greek-style, ewe's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19552,"Yogurt, Greek-style, on a bed of fruits",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19556,"Yogurt, goat's milk, plain, around 5% fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19558,"Yogurt, fermented milk or dairy specialty, with cereals, fat free",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19559,"Yogurt, fermented milk or dairy specialty, flavoured, with sweetener, fat free",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19575,"Yogurt, fermented milk or dairy specialty, flavoured, with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19577,"Yogurt, fermented milk or dairy specialty, flavoured, w sugar, with cream",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19579,"Yogurt, fermented milk or dairy specialty, w cereals",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19580,"Yogurt, fermented milk or dairy specialty, with chocolate shavings, with cream, with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19581,"Yogurt, fermented milk or dairy specialty, with fruits, with sweetener, fat free",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19582,"Yogurt, fermented milk or dairy specialty, with fruits, with sweetener, fat free, fortified with vitamin D",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19587,"Yogurt, fermented milk or dairy specialty, w fruits, with sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19589,"Yogurt, fermented milk or dairy specialty, w fruits, with sugar, with cream",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19590,"Mozzarella cheese, from cow's milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19592,"Yogurt, fermented milk or dairy specialty, with fruits, with sugar, fortified with vitamin D",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19593,"Yogurt, fermented milk or dairy specialty, plain",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19594,"Yogurt, fermented milk or dairy specialty, plain, fat free",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19598,"Yogurt, fermented milk or dairy specialty, plain, w cream",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19599,"Yogurt, fermented milk or dairy specialty, plain, w sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19641,"Drained soft fresh cheese, around 6% fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19659,"Fresh cream cheese, with fruits, creamy, with sugar, around 7% fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19673,"Custard dessert, reduced fat, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19674,"Flan with eggs, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19678,"Renneted milk, flavoured, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19679,"Milk jelly, flavoured, covered with caramel, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19680,"Milk jelly, flavoured, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19681,"Custard topped with whipped cream (chocolate, coffee, caramel or vanilla custard), refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19683,"Milk jelly, flavoured, reduced fat and sugar, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19692,"Soy dessert, w fruits, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19693,"Soy dessert, plain, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19698,"Tiramisu, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19801,"Fermented milk drink, plain, skimmed milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19805,"Fermented milk drink, plain, whole milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19852,"Chestnut mousse, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+19860,"Yogurt, Greek-style, plain",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20007,"Carrot, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20009,"Carrot, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20012,"Curly endive, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20014,"Red cabbage, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20016,"Cauliflower, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20018,"Palm heart, canned, drained",1,0,1,1,NP:1,"NP:1,P:1",Gained Proxy Versions,1,2,1
+2002,"Mixed fruits juice, pure juice, multivitamin",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20020,"Courgette or zucchini, pulp and peel, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20023,"Celery stalk, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20026,"Chicory, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20028,"Fennel, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20029,"Mung bean, sprouted or soy spouts, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20031,"Lettuce, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20034,"Onion, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20036,"Garden peas, canned, drained",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20038,"Dandelion, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20039,"Leek, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20041,"Sweet pepper, green, yellow or red, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20043,"Pumpkin, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20044,"Pumpkin, raw",1,0,1,20,NP:1,"NP:1,P:20",Gained Proxy Versions,1,21,20
+20045,"Radish, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20047_3,"Tomato, off season, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20051,"Diced mixed vegetables, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20052,"Artichoke, globe, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20053,"Eggplant, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20054,"Cardoon, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20055,"Celeriac, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20057,"Broccoli, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20058,"Brussels sprout, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20061_1,"French bean, raw",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20061_2,"French bean, raw (Kenya by plane)",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20062,"French bean, canned, drained",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20063,"Butter bean or yellow bean, canned, drained",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20064,"Turnip, peeled, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20065,"Turnip cabbage, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20066,"Sweet corn, canned, drained",1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+20067,"Artichoke, canned, drained",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20069,"Green cabbage, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20070,"French bean, frozen, raw",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20072,"Garden peas, raw",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20073,"Asparagus, peeled, raw",1,0,1,1,NP:1,"NP:1,P:1",Gained Proxy Versions,1,2,1
+20076,"Asparagus, canned, drained",1,0,1,1,NP:1,"NP:1,P:1",Gained Proxy Versions,1,2,1
+20077,"Brussels sprout, canned, drained",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20078,"Celery stalk, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20081,"Salsify, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20082,"Cauliflower, frozen, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20084,"Garden peas, frozen, raw",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20085,"Sweet pepper, green, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20087,"Sweet pepper, red, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20089,"Radish, black, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20090,Escaroles,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20091,"Beetroot, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20093,"Garden peas and carrots, canned, drained",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20097,"Shallot, raw",1,0,1,10,NP:1,"NP:1,P:10",Gained Proxy Versions,1,11,10
+20099,"Lamb's lettuce, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20101,"Mixed vegetables, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20105,"Morel, raw",1,0,1,10,NP:1,"NP:1,P:10",Gained Proxy Versions,1,11,10
+20108,"Sweet corn, on the cob, frozen, raw",1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+20111,"Sorrel, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20116,"White cabbage, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20126,"Lima bean, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20128,"Pumpkin (cucurbita moschata), pulp, raw",1,0,1,20,NP:1,"NP:1,P:20",Gained Proxy Versions,1,21,20
+2013,"Orange juice, home-made",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20132,"Red kuri squash, pulp, raw",1,0,1,20,NP:1,"NP:1,P:20",Gained Proxy Versions,1,21,20
+20134,"Sweet green hokkaido squash, pulp, raw",1,0,1,20,NP:1,"NP:1,P:20",Gained Proxy Versions,1,21,20
+20135,Leeks fondue or slow-simmered leeks,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20136,"Squash, melonnette jaspée from Vendée, pulp, raw",1,0,1,20,NP:1,"NP:1,P:20",Gained Proxy Versions,1,21,20
+20138,"Squash, butternut, pulp, raw",1,0,1,20,NP:1,"NP:1,P:20",Gained Proxy Versions,1,21,20
+20139,"Squash, all types, raw",1,0,1,20,NP:1,"NP:1,P:20",Gained Proxy Versions,1,21,20
+20145,"Squash, spaghetti, pulp, raw",1,0,1,20,NP:1,"NP:1,P:20",Gained Proxy Versions,1,21,20
+20151,"Chili pepper, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20155,"Artichoke, heart, canned, drained",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20156,"Artichoke base, canned, drained",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20162,"Red endive, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20163,"Green endive, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20166,"Pumpkin, pulp, raw",1,0,1,20,NP:1,"NP:1,P:20",Gained Proxy Versions,1,21,20
+20167,"Chinese cabbage (nappa cabbage or bok choy), raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20168,"Sweet pepper, yellow, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20171,"Cos or romaine lettuce, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20173,"Snow pea, raw",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20180,"Onion, dried",1,0,1,10,NP:1,"NP:1,P:10",Gained Proxy Versions,1,11,10
+20181,"Parsnip, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20183,"Mung bean, sprouted or soy spouts, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20188,"Bamboo shoots, canned, drained",1,0,1,1,NP:1,"NP:1,P:1",Gained Proxy Versions,1,2,1
+20194,"Haricot beans with tomato sauce, canned",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20195,"Butter bean or yellow bean, raw",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20196,"Jerusalem artichoke, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20197,"Salsify, black, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20198,"Bamboo shoots, raw",1,0,1,1,NP:1,"NP:1,P:1",Gained Proxy Versions,1,2,1
+20199,"Garden cress, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20200,"Iceberg lettuce, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20201,"Rutabaga or Swede, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20203,"Butter bean or yellow bean, frozen, raw",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20204,"Broccoli, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20206,"Brussels sprout, frozen, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20208,"Carrot, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20214,"Garden peas and carrots, frozen, raw",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20217,"Roman rocket, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20218,"Curly kale, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20230,"Courgette or zucchini, pulp and peel, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20231,"Chinese or Japanese artichokes, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20232,"Artichoke base, frozen, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20233,"Sweet corn, frozen, raw",1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+20234,"Turnip, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20235,"Onion, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20236,"Leek, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20237,"Salsify, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20240,"Piperade, Basque-style (fondue of sweet peppers and tomatoes flavoured with onions and garlics)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20246,"Baby food jar with vegetables, from 4-6 months",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20247,"Baby food jar with vegetables and starch, from 4-6 months",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20248,"Vegetable dish for baby, with starch, from 6-8 months",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20249,"Vegetable dish for baby, with milk/cream and starch, from 6-8 months",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20250,"Vegetable dish for baby, with milk/cream and starch, from 8-12 months",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20251,"Vegetable dish for baby, with milk/cream and starch, from 12 months",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20252,"Soup for baby, with vegetables and potatoes",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20253,"Soup for baby, with vegetables, cereals and milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20254,"Vegetable dish for baby, with milk/cream and starch, from 18 months",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20257,"French bean, puree",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20258,"Vegetables (3-4 types), mashed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20259,"Broccoli, puree",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20261,"Carrots, puree",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20263,"Mixed vegetables for soups, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20264,"Courgettes, puree",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20265,"Thinly-shredded or diced vegetables, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20266,"Mixed vegetables for ratatouille, frozen",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20267,"Spring vegetables, frozen, raw (French beans, carrots, potatoes, green peas, onions)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20269,"Flat bean, raw",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20271,"Mixed diced vegetables, frozen",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20272,"Mesclun or salads, mix of baby leaves",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20275,"Sweet pepper, red, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20278,"Celeriac, puree",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20279,"Asparagus, green, raw",1,0,1,1,NP:1,"NP:1,P:1",Gained Proxy Versions,1,2,1
+20280,"Romanesco cauliflower or romanesco broccoli, raw",1,0,1,5,NP:1,"NP:1,P:5",Gained Proxy Versions,1,6,5
+20282,"Asparagus, white or purple, peeled, raw",1,0,1,1,NP:1,"NP:1,P:1",Gained Proxy Versions,1,2,1
+20283,"Glasswort (Salicornia sp.), fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20284,"Green peas, puree",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+2035,"Mixed fruits juice, pure juice",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20496,"Mixed vegetables for couscous, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20501,"Haricot bean, dry",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20504,"Lentil, dried",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20508,"Flageolet bean, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20510,"Lentil, seasoned, canned, drained",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20511,"Haricot bean, canned, drained",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20515,"Split pea, dried",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20516,"Chick pea, dried",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20517,"Broad bean, to shell, fresh",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20518,"Broad bean, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20521,"Lentils, sprouted",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20524,"Red kidney bean, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20525,"Red kidney bean, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20530,"Beans, mung, mature, seeds, dry",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20532,"Chick pea, canned, drained",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20534,"lupin grain, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20535,"Lentil, pink or red, dried",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20536,"Broad bean, fresh, frozen",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20537,"flageolet bean, frozen",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20539,"Flageolet bean, green, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20541,"Broad bean, peeled, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20585,"Lentil, green, dried",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+20586,"Lentil, blond, dried",1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+2060,"Mixed fruits nectar, multivitamin",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+2061,Mixed fruits nectar,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+2069,"Mixed fruits juice, reconstituted from a concentrate, multivitamin",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+2074,"Apple juice, pure juice",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20900,Soya flour,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20901,"Soybean, whole grain",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20904,"Tofu, plain",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20911,"Soy dessert, flavoured, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20916,Miso,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20917,Tempeh,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20918,Syrup for canned fruits in syrup,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20919,Light syrup for canned fruits in syrup,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20984,"Wakame (Undaria pinnatifida), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20985,"Sea lettuce (ulva sp.), dried or dehydrated)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20986,"Sea belt (Saccharina latissima), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20987,"Laver (Porphyra sp.), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20988,"Dulse (Palmaria palmata), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20990,"Kombu or Japanese kelp (Laminaria japonica), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20991,"Tangle (Laminaria digitata), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20992,"Sea thong (Himanthalia elongata), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20993,"Gracilaria seaweeds (Gracilaria verrucosa), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20994,"Toothed wrack or bladder wrack (Fucus serratus et vesiculosus), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20995,"Sea lettuce (Enteromorpha sp.), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20996,"Carragheen mosses (Chondrus crispus), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20998,"North Atlantic rockweed (Ascophyllum nodosum), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+20999,"Atlantic wakame (Alaria esculenta), dried or dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21001,"Mutton, meat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21003,"Mutton, shoulder, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21004,"Sheep, foot, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21005,"Sheep, head, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21006,"Mutton, leg, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21500,"Lamb, cutlet, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21502,"Lamb, leg, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21504,"Lamb, shoulder, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21505,"Lamb, shoulder, lean, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21514,"Lamb, neck, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21515,"Lamb, saddle, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21516,"Lamb, chop fillet, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21517,"Lamb, rib chop, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+21800,"Young goat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22000,"Egg, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22001,"Egg white, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22002,"Egg yolk, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22003,"Egg yolk, powder",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22004,"Egg white, powder",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22011,"Egg, poached",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22013,"Egg, powder",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22060,"Duck egg, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22070,"Goose egg, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22080,"Turkey egg, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22502,"Egg, scrambled, with added fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22506,"Omelette, with cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22507,"Omelette, with lardoons",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22508,"Omelette, with mushrooms",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22509,"Omelette, with herbs",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+22510,Spanish-style tortilla with onions (omelette with potatoes and onions),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23005,Chou pastry with praline flavoured creme,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23006,Sponge cake w chocolate w or wo cherry,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23008,"Dessert, Opera cake type",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23009,Sponge sandwich cake filled and topped with strawberries or raspberries,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23022,Canelé cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23024,Macaron filled with jam or cream,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23027,Macaroon,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23030,Christmas log cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23032,Brownie (chocolate cake),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23033,Rock-shaped coconut cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23050,Savoy-style sponge cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23081,"Pound cake, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23103,"Lemon cake, all types",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23121,Breton pudding cake with prunes,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23122,Buttered and caramelized milk bread cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23200,Gingerbread,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23300,Baklava (oriental pastry with almonds and syrup),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23301,Gazelle horn (oriental pastry with almonds and syrup),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23402,"Thin-crust pizza shell, raw",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+23410,"Short crust pastry, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23414,"Short crust pastry, pure butter, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23415,"Short crust pastry, pure butter, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23420,"Puff pastry, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23421,"Puff pastry, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23424,"Puff pastry, pure butter, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23425,"Puff pastry, pure butter, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23440,"Shortbread dough, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23444,"Shortbread dough, pure butter, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23445,"Phyllo or filo dough, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23446,"Shortbread dough, pure butter, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23455,Pastry cream puff,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23456,Chou pastry filled with whipped cream,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23457,Chou pastry filled with custard,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23467,"Chou pastry, sugar coated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23472,"Profiteroles (chou pastry), with vanilla ice cream and chocolate sauce",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23474,"Profiteroles (chou pastry), with custard and chocolate sauce, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23477,Eclair,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23479,Fruit pie with confectioner's custard,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23480,Apple turnover,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23481,"Apple pie with custard (flour, eggs, cream, sugar, apple alcohol)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23485,Lemon tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23490,Apple tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23491,Strawberries tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23493,Apple crumble,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23494,Apricots tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23495,Red berries tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23496,Tatin tart (caramelized upside-down apple tart),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23497,Chocolate tart from bakery,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23499,Fruit tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23525,Flan tart with eggs,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23534,"Semolina pudding, with raisins and caramel sauce, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23535,"Semolina pudding, canned",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23536,"Rice pudding w caramel sauce, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23585,Chocolate cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23586,"Chocolate soft cake, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23588,Yogurt cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23589,Fresh cream cheese cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23594,"Soft cake, plain, sponge cake type",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23680,Twelfth Night cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23684,Twelfth Night cake (puff pastry filled with almond paste),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23799,"Crepe, plain, prepacked, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23800,"Crepe, plain, prepacked, room temperature",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23801,"Buckwheat crepe, plain, prepacked",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+23802,"Basque cake (shortbread), with custard",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23803,"Basque cake (shortbread), with cherries",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23805,Blinis,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23815,"Crepe filled with sugar, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23820,"Crepe, filled with jam, home-made",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23821,"Crepe, filled with chocolate or chocolate and hazelnut spread, home-made",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23829,"Crepe filled with chocolate, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23830,"Crepe filled with strawberries, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23851,"Soft waffle (Brussels-style), plain or with sugar, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23852,"Soft waffle (Brussels-style), with chocolate, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23853,"Wafer biscuit, crunchy (thin or dry), plain or with sugar, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23854,"Wafer biscuit, crunchy (thin or dry), with chocolate, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23880,"Doughnut, plain",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23881,Doughnut filled with jam,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23884,"Doughnut filled with fruits, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23885,"Doughnut filled with chocolate, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23909,Fruit cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23925,Marble cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23930,"Fruit shortbread cake, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23938,Soft cake with nuts,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23939,Soft cake filled with chocolate or chocolate drops or milk,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23940,Sponge cake filled and covered with chocolate,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+23950,"Muffin, with blueberry or chocolate",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24000,Biscuit (cookie),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24001,"Biscuit (cookie), plain",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24002,Biscuit (cookie) vitamins content guaranteed,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24003,Biscuit (cookie) vitamins and chemical elements content guaranteed,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24004,"Biscuit (cookie) with fruits, reduced salt",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24007,"Crispy biscuit (cookie), with chocolate, reduced fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24008,"Biscuit (cookie) filled with fruits, reduced fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24009,Speculoos biscuit,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24010,"Biscuit (cookie), with vegetal fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24011,"Biscuit (cookie), assortment of miniature sweets and biscuits",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24015,Butter biscuit (cookie),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24016,"Biscuit (cookie), covering with a chocolate bar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24017,"Butter biscuit (cookie), with chocolate",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24030,"Biscuit (cookie), with milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24031,"Crispy biscuit (cookie), without chocolate, reduced fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24034,Breakfast biscuit (cookie),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24035,"Breakfast biscuit (cookie), reduced sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24036,"Biscuit (cookie), with chocolate, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24037,Biscuit (cookie) filled with fruit paste or fruit puree,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24038,"Biscuit (cookie), chocolate covering",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24039,"Biscuit bar filled with fruits, reduced fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24040,"Breakfast biscuit (cookie), with chocolate",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24041,"Breakfast biscuit (cookie) with cereals, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24049,"Biscuit shortbread, with butter",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24050,"Biscuit shortbread, with butter and chocolate",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24051,"Biscuit sponge cake, with chocolate, pre-packed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24052,"Biscuit (small tart), with chocolate, pre-packed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24053,"Biscuit shortbread, with chocolate, pre-packed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24054,"Biscuit shortbread, with fruits",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24055,Biscuit (cookie) with nuts (no chocolate or lightly chocolate-flavoured),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24056,Florentine biscuit (chocolate sweet biscuit (cookie) with almonds),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24060,Pastry biscuit with meringue,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24070,Shortbread cookie w coconut,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24071,Shortbread pastry biscuit,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24072,"Shortbread cookie with fruit (apple, red berries, etc.)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24080,"Shortbread cookie with cocoa or chocolate, or praline or other",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24225,"Biscuit (cookie), snack with dairy or vanilla filling",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24231,"Biscuit (cookie), snack w chocolate filling",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24240,"Biscuit (cookie), snack with fruits filling",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24300,Wafer biscuit without filling,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24311,"Wafer biscuit, filled with chocolate, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24312,"Wafer biscuit, filled with nuts (hazelnut, almond, praline, etc.), with chocolate or not, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24313,"Wafer biscuit, plain or vanilla flavoured, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24320,"Wafer biscuit, with fruits",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24360,Wafer cookie,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24370,Wafer cookie,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24371,"Wafer cookie, with chocolate, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24430,"Biscuit (cookie), sponge fingers or Lady fingers",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24441,"Biscuit (cookie), cat tongue type",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24520,Meringue,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24615,"Biscuit (cookie), thin, w almonds",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24616,"Biscuit (cookie), thin, w fruits",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24630,"Madeleine cake, pure butter",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24631,"Madeleine biscuit, with chocolate, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24632,Madeleine biscuit (cookie),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24659,Biscuit puff pastry,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24660,"Biscuit ( puff pastry), palmier, from bakery",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24663,Peer tart with almonds,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24664,Almond cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24666,Mille-feuille pastry,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24678,"Biscuit sponge cake with fruits covering, pre-packed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24679,"Biscuit (small tart), with fruit covering",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24680,"Soft cake, filled with fruit paste or fruit puree and sugar icing coated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24684,"Biscuit (cookie), with chocolate drops",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24685,"Cone, wafer for ice cream",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24689,Biscuit for baby,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+24690,"Biscuit (cookie), reduced sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+2500,Smoothie,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25001,Veal stew in white sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25002,"White bean stew, canned",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25003,"Sauerkraut, with garnish",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25009,Shepherd's pie or cottage pie with meat,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25010,Salt-cured pork belly with lentils,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25013,Boiled meat with vegetables,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25019,"Ravioli filled with meat, in tomato sauce, canned",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25020,Cheese soufflé,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25026,Spinach w cream sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25029,Couscous w mutton,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25031,Paëlla,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25033,Burgundy-style beef stew,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25037,"Fish or seafood au gratin, intended to be cook",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25038,"Fish and shrimp 'au gratin', previously frozen",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25043,"Couscous with meat or chicken, light",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25056,"Dauphiné-style creamed potatoes ""au gratin""",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25058,"Duck with sauce (green pepper sauce, hunter-style sauce,etc.)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25063,Rabbit with mustard sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25065,Beef stew with carrots,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25071,"Pork sausage stew with cabbage, carrots and potatoes",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25073,Chicory w ham,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25077,Salmon with sorrel,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25081,Lasagna or cannelloni with meat (bolognese sauce),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25085,"Bolognese-style pasta (spaghetti, tagliatelle…)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25088,Cantonese rice,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25089,Escalope cordon bleu (topped with a ham slice and Gruyere sauce),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25098,"White bean stew, with pork, canned",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25099,"White bean stew, with duck or goose, canned",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25103,Stuffed tomatoes,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25106,Stuffed cabbage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25107,Couscous w fish,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25108,Beef samosas or samoosas,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25111,Chili con carne,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25121,Cockerel in red wine sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25123,Moussaka,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25124,Stewed lamb garnished with potatoes and other vegetables,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25125,Veal olive or veal paupiette,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25126,Poultry paupiette,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25127,Couscous royal (with different meats),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25128,White fish with Provencal-style sauce (tomato sauce),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25131,Lasagna or cannelloni with vegetables,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25135,"Carbonara-style pasta (spaghetti, tagliatelle…)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25137,Tartiflette (cheese fondue),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25138,Couscous w chicken,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25139,Lasagna or cannelloni with fish,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25140,White fish with Florentine-style sauce (spinach sauce),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25142,White fish with mustard sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25145,White fish with tarragon sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25146,White fish with sorrel sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25150,Couscous with vegetables,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25151,Fish or seafood in puff pastry,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25152,Couscous w meat,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25154,Fish brandade or fish shepherd's pie,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25157,"Fresh pasta, stuffed with meat (e.g. bolognese-style ravioli), raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25159,Mutton tagine,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25164,Osso buco,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25174,Chicken with curry and coconut milk sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25181,"Fresh pasta, stuffed with cheese (e.g. ravioli), raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25182,"Fresh pasta, stuffed with cheese and vegetables (e.g. ravioli), raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25187,"Risotto, w vegetables",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25188,"Risotto, w seafood",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25189,"Risotto, w cheeses",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25190,"Chicken, Basque style",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25192,"Ravioli filled with vegetables, in tomato sauce, canned",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25195,Shepherd's pie with duck,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25196,"Riste (Eggplant, tomatoes, onions)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25198,"Pasta with cheese sauce (spaghetti, tagliatelle…)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25203,"Fresh pasta, stuffed with vegetables (e.g. ravioli), raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25204,Chicken tagine,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25207,Pork with caramel sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25211,"Meat balls, beef, with tomato sauce",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25399,Snails in puff pastry,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25400,Toasted ham sandwich topped with grated cheese,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25401,Cheese in puff pastry,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25402,Meat in puff pastry,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25403,Hot-dog,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25404,"Pizza, cheese and tomato or Margherita pizza",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25405,Quiche Lorraine (eggs and lardoons quiche),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25409,"Crepe, filled with ham",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25410,"Crepe or buckwheat crepe, filled with cheese, ham and bechamel sauce",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25411,"Crepe or buckwheat crepe, filled with mushrooms and bechamel sauce",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25412,"Vol-au-vent, with meat/poultry/quenelle",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25413,"Hamburger, from fast foods restaurant",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25414,"Cheeseburger, from fast foods restaurant",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25415_1,"Cheeseburger, double, from fast foods restaurant",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25416,"Fish burger, fast foods restaurant",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25417,Vegetables tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25418,Croissant filled with ham,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25419,Spring roll,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25420,Egg roll or Nem,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25428,"Sandwich made with pita bread, kebab and raw vegetables",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25429,"Sandwich made with French bread, kebab and raw vegetables",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25431,"Sandwich made with French bread, tuna, raw vegetables (tomato and lettuce) and mayonnaise",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25433,"Caribbean-style fish fritters, fish acras",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25434,"Sandwich made with panini bread, raw cured ham, mozzarella cheese and tomato",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25435,"Pizza, ham and cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25437,Small cheese chou-pastry puff,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25438,"Fritter, filled (filo pastry) (garnish : shrimps, vegetables, poultry, meat, etc.)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25444,Cheese tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25454,Provencal-style tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25456,Sushi or maki with seafood products,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25457,"Pizza, bolognese-style w meat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25459,Burritos,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25460,Fajitas,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25462,"Pizza, chorizo or salami",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25463,"Pizza, seafood",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25464,"Pizza, salmon",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25468,"Pizza, goat cheese and lardoons",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25472,"Pizza, vegetables or pizza 4 seasons",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25476,"Sandwich made with French bread, chicken, raw vegetables (lettuce & tomato) and mayonnaise",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25477,"Pizza, cheese and mushrooms",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25478,"Pizza, four cheeses",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25485,"Sandwich made with French bread, ham and emmental cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25488,"Sandwich made with French bread, smoked salmon and butter",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25490,"Sandwich made with French bread, tuna, sweet corn and raw vegetables",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25502,"Chicken burger , fast foods restaurant",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25503,Vol-au-vent with fish and seafood,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25504,Poultry on skewer,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25505,Beef on skewer,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25506,Mixed meat on skewer,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25508,Ham and cheese in puffed pastry,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25509,Savoy-style fondue (cheese wine and bread),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25511,Stuffed vegetables (excluding tomato),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25512,Poultry nuggets,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25513,"Large round sandwich with lettuce, tuna, anchovy and black olives",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25517,"Sandwich made with French bread, ham and butter",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25518,"Sandwich made with French bread, camembert cheese and butter",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25519,"Sandwich made with French bread, pâté and pickles",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25520,"Sandwich made with French bread, dry sausage and butter",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25521,"Sandwich made with French bread, ham, emmental cheese and butter",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25523,Canapés (toasts w various toppings),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25524,Provencal-style tomato (breaded tomatoes stuffed with garlic and parsley),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25525,Topping sauce for pizza,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25528,"Pizza, onion anchovy and black olives",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25529,Onion tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25530,"Sandwich made with French bread, raw vegetables and mayonnaise",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25531,"Sandwich made with French bread, turkey, raw vegetables (lettuce & tomato) and mayonnaise",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25532,"Sandwich made with French bread, egg, raw vegetables (tomato and lettuce) and mayonnaise",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25533,"Sandwich made with French bread, pork, raw vegetables (lettuce & tomato) and mayonnaise",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25535,"Sandwich made with French bread, merguez sausage, ketchup and mustard",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25536,"Sandwich made with French bread, salami and butter",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25537,"Salmon carpaccio, w marinade",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25539,Fish on skewer,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25541,Lamb on skewer,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25544,"Sandwich made with loaf bread, various filling",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25546,"Cheese and ham, breaded",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25547,"Grilled cheese & ham sandwich, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25548,"Pizza, ham cheese and mushrooms",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25549,"Crepe or buckwheat crepe, filled with cheese and bechamel sauce",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25550,Flamed tart (thin-crusted onion tart with cream and lardoons),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25551,"Meat, poultry or fish fritters, home-made",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25552,"Crepe or buckwheat crepe, filled with cheese, ham, mushrooms and bechamel sauce",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25553,Leek tart or pie,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25555,Salmon tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25556,Vegetable fritters,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25557,"Fritter, filled with eggs (filo pastry)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25558,"Fritter, filled with beef (filo pastry)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25559,"Fritter, filled with potatoes (filo pastry)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25560,Riesling wine and pork pie,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25561,Tomato tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25562,"Crepe or buckwheat crepe, filled with egg, ham and cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25564,Scallops tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25566,"Pork on skewer, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25568,"Pastilla, filled with chicken (pie)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25570,"Pizza, lardoons onions and cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25571,Falafel,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25572,"Crepe or buckwheat crepe, filled with scallops",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25574,"Sandwich made with wholemeal loaf bread, ham, raw vegetables, cheese (optional)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25575,"Sandwich made with wholemeal loaf bread, tuna, raw vegetables and mayonnaise",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25576,"Sandwich made with wholemeal loaf bread, ham and cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25577,"Sandwich made with wholemeal loaf bread, chicken, raw vegetables and mayonnaise",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25600,"Celeriac in remoulade sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25601,"Prepared mixed tuna and vegetable salad, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25602,"Prepared mixed meat/fish canned, drained salad",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25604,"Green salad, raw, without seasoning",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25605,Greek-style marinated mushrooms,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25606,"Prepared potatoes salad, home-made",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25608,"Tabbouleh, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25609,"Potato salad, piémontaise-style, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25610,Ox muzzle in salad dressing sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25614,Prepared rice salad,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25615,"Prepared pasta salad, vegetarian",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25619,"Prepared pasta salad, with vegetable, meat or fish",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25620,"Guacamole, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25621,Hummus,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25623,Maroilles cheese tart or maroilles cheese flamiche,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25625,"Crepe or buckwheat crepe, filled with fish and/or seafood",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25628,"Caesar's salad (salad, chicken, croûtons, sauce)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25635,Lasagna or cannelloni with goat cheese and spinach,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25900,"Soup, lentils, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25901,"Soup, chicken and vegetables, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25903,"Soup, mixed vegetables, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25904,"Soup, fish and/or crustacean, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25905,"Soup, mixed vegetables, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25907,"Soup, leek and potato, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25908,"Soup, chicken and vermicelli, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25910,"Soup, onions, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25912,"Soup, mushrooms, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25913,"Soup, carrots, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25915,"Soup, chorba frik, w meat and frik",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25916,"Soup, minestrone, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25917,"Soup, pistou (basil, garlic and olive oil), dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25919,"Soup, fish and/or crustacean, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25924,"Soup, Moroccan, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25925,"Soup, leek and potato, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25928,"Soup, chicken and vegetables, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25932,"Soup, asparagus, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25933,"Soup, tomatoes and vermicelli, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25934,"Soup, cereals and vegetables, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25936,"Soup, mushrooms, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25942,"Soup, onions, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25945,"Soup, pumpkin, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25948,"Broth, stock or bouillon, vegetables",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25949,"Soup, tomato and vermicelli, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25950,"Soup, chicken and vermicelli, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25953,"Soup, pistou (basil, garlic and olive oil), prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25954,"Soup, pumpkin, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25956,"Soup, minestrone, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25957,"Soup, watercress, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25958,"Soup, watercress, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25962,"Soup, vegetables with cheese, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25963,"Soup, green vegetables, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25964,"Soup, green vegetables, dehydrated and reconstituted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25965,"Soup, split peas, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25968,"Soup, asparagus, prepacked, to be reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25998,"Atlantic herring, smoked, fillet",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+25999,"Anchovy, fillets, rolled with capers, semi-preserved, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26000,"Anchovy, fillets, in oil, semi-preserved, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26001,"American bass, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26006,"Alaska pollock, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26009,"Atlantic halibut, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26010,"Atlantic herring, marinated, or rollmops",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26011,"Atlantic herring, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26013,"Atlantic herring, smoked, plain",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26018,"Anglerfish, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26027,"Pilchard, in tomato sauce, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26029,"Fish, breaded, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26034,"European pilchard or sardine, in oil, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26035,"European pilchard or sardine, in tomato sauce, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26036,"Salmon, raw, farmed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26037,"Salmon, smoked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26039,"Tuna, plain, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26040,"European pilchard or sardine, in olive oil, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26042,"Turbot, raw, wild",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26043,"Cod, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26044,"European hake, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26046,"Surimi, on sticks, in slices or grated, crab flavour",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26047,"Saithe, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26048,"Hake, fillet, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26051,"Mackerel, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26052,"Ray, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26053,"Tuna, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26054,"Fish, in sauce, frozen",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26057,"Common dab, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26058,"Common sole, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26063,"Spiny scorpionfish, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26064,"Yellowfin tuna, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26065,"European pilchard or sardine, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26068,"Skipjack tuna, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26071,"Tuna, in sunflower oil, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26072,"European bass, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26074,"Nursehound or lesser spotted dogfish, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26075,"Atlantic bass, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26076,"Albacore, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26079,"Common anchovy, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26080,"Gilthead seabream, raw, wild",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26082,"Swordfish, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26083,"Pond smelt, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26084,"Megrim, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26085,"Surmullet or red mullet, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26086,"Mackerel, fillet, in tomato sauce, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26087,"Mackerel, smoked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26088,"Gilthead seabream, raw, farmed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26090,"Haddock, smoked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26091,"Mullet, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26092,"Sea trout, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26095,"Whiting, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26096,"Mackerel, fillet, in mustard sauce, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26097,"Mackerel, fillet, in white wine, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26098,"Cod, salted, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26099,"Black seabream, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26100,"Bogue, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26101,"Bonito, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26102,"Atlantic chub mackerel, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26103,"Common dentex, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26104,"John dory, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26106,"Red gurnard, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26107,"Brown meagre, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26108,"Capelin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26109,"Blackspot seabream, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26111,"Salema, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26113,"Horse mackerel, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26119,"Salmon, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26122,"Haddock, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26123,"Mackerel, canned in brine, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26124,"Whiting, breaded",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26127,"Conger, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26128,"Roundnose grenadier, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26129,"Pollack, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26130,"Ling, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26133,"Pouting, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26134,"Saithe, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26135,"Lemon sole, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26146,"Snapper, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26152,"Alaska pollock, smoked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26153,"Largehead hairtail, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26154,"Greenland halibut, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26157,"Crevalle jack, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26159,"Bigeye scad, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26162,"Shark, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26166,"Garfish, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26170,"Freshwater bream, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26171,"Arctic char, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26172,Spotted wolffish,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26173,"European sprat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26174,"Turbot, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26177,"Anchovy, in salt (semi-preserved)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26178,"Grouper, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26179,"Albacore, in olive oil, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26181,"Yellowfin tuna, canned in brine, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26186,"Mackerel, marinated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26187,"Common anchovy, marinated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26194,"Blue ling, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26200,"Tonguesole, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26201,"Turbot, raw, farmed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26205,"Mediterranean bass, raw, wild",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26206,"Mediterranean bass, raw, farmed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26210,"Golden redfish, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26211,"Salmon, microwaved, farmed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26213,"Grenadier, from any fishing spot, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26214,"Blue grenadier, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26219,"Tub gurnard, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26231,"European pilchard or sardine, fillets without fishbone, in olive oil, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26232,"Atlantic herring, smoked, in oil",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26233,"Shallow-water Cape hake, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26235,"Horse mackerel, lean (spring, summer), raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26236,"Horse mackerel, oily (autumn, winter), raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26237,"Atlantic herring, lean, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26238,"Atlantic herring, oily, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26239,"Surimi, filled w cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26240,"Big-scale sand smelt (whole small fish), to fry, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26241,"Blue shark, fillet, without skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26242,"Tuna, flaked, in tomato sauce, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26243,"Tuna, in Catalan-style or in tomato sauce, canned",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26244,"Surmullet or red mullet, fillet with skin, frozen, raw (from Thailand or Senegal)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26245,"Tuna, flaked, in oil, canned, drained",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26256,Ham and mushroom pancake in cheese sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26259,"Coleslaw, w sauce, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26264,"Gnocchi, from potato, raw",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+26265,"Gnocchi, from semolina, raw",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+26266,Croissant filled with ham and cheese,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26267,Goat cheese and spinach tart,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26268,Squid and spicy tomato sauce pie,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26269,"Tabbouleh with chicken, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26270,"Pizza, tuna",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26271,"Pizza, kebab",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26272,"Pizza, chicken",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26273,Pizza with raclette or tartiflette cheese and lardoons,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+26274,"Pizza, cured ham",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+27003,"Carp, raw, farmed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+27008,"Trout, farmed, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+27009,"Rainbow trout, raw, farmed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+27010,"European perch, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+27017,"Brown bullhead, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+27021,"Salmon trout, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+27025,"Nile perch, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+27029,"Trout, farmed, smoked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28001,"Pork, shoulder, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28002,"Pork, belly, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28003,"Pork loin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28004,"Pork, knuckle or shank, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28100,"Pork, chop, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28102,"Pork, round steak, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28104,"Pork, rack, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28201,"Pork tenderloin, lean, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28204,"Pork filet mignon, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28300,"Pork, roast, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28302,"Pork, loin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28400,"Pork, spare-ribs, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28460,"Pork, ham escalope, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28470,"Pork, back fat, rindless, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28471,"Pork, jowl, rindless, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28472,"Pork, shoulder lower half, without rind, fat and bone, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28473,"Pork, way leg, without rind, fat and bone, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28474,"Pork, knuckle oh ham, without rind, fat and bone, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28475,"Pork, 90/10 trimming, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28476,"Pork, 80/20 trimming, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28477,"Pork, shoulder upper half, without rind, fat and bone, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28479,"Pork, belly, flank removed, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28480,"Prok, eye of shortloin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28501,"Lardoons, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28502,"Pork belly, smoked, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28503,Bresaola,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28530,Pork ear sat-cured,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28540,Pork trotters salt-cured,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28550,Pork belly salt-cured,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28700,"Pork ham, intended to be cooked or pork ham, intended to be roast/bake",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28720,"Smoked lardoons, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28727,"Bacon, back",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28800,"Cured ham, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28801,"Cured ham, raw, smoked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28802,"Dry-cured ham, fat and rind removed",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28803,"Cooked ham, smoked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28804,"Cured ham, raw, smoked, reduced fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28811,"Bayonne Cured ham, raw, smoked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28812,Dry-cured ham,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28844,Parma dry-cured ham,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28845,Serrano dry-cured ham,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28850,Coppa,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28858,"Pancetta, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28900,"Cooked ham, superior quality",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28901,"Cooked ham, superior quality, with rind",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28902,"Cooked ham, superior quality, rind less",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28905,Braised ham on the bone,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28906,"Cooked ham, superior quality, rind less and fatless",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28907,"Cooked ham, superior quality, reduced salt",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28910,"Cooked ham, choice",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28911,"Cooked pork shoulder, choice",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28912,"Cooked ham, choice, w rind",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28913,"Cooked ham, choice, rind less and fatless",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28922,"Ham in cube, grated or minced",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28924,"Cooked pork shoulder, standard, rind less and fatless",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28925,"Cooked ham, Parisian-style, rind less and fatless",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28927,"Poultry, minced meat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+28929,"Poultry ham in cube, grated or minced",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+3000,"Baby milk, first age, powder, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+3002,"Baby milk, second age, powder, non rehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30050,"Sausage meat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30051,"Sausage meat, pure pork, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30052,"Sausage meat, pork and beef, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30104,Morteaux sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30105,Montbeliard sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30110,"Toulouse sausage, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30115,"Chipolata slim sausage, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30125,Smoked Alsatian sausage or Landjäger,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30130,"Poultry sausage, delicatessen style",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30131,Poultry sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30134,Frankfurter sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30150,"Merguez sausage, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30152,"Merguez sausage, pure beef, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30153,"Merguez sausage, pork and beef, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30154,"Merguez sausage, beef, mutton and pork, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30156,"Merguez sausage, beef and mutton, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30176,Liver sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30177,"Diot (sausage from Savoy), raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30300,Dry sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30301,"Dry sausage, pure pork",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30302,"Dry sausage, pure pork, superior quality",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30304,Rosette dry sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30309,"Sausage, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30311,Dry sausage w walnuts and/or hazelnuts,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30315,"Spicy pork sausage with red pepper, no precision",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30316,Dry spicy pork sausage with red pepper,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30317,"Spicy pork sausage with red pepper, in large slices",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30350,Salami,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30351,"Salami, pure pork",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30352,"Salami, pork and beef",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30366,"Salami, Danish-style",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30700,Garlic sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30701,"Cooked sausage, pure pork",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30705,Sausage from Paris,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30706,"Sausage from Paris, smoked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30730,Saveloy or cervelat,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30731,Saveloy or cervelat (from Obernai Alsace),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30732,"Saveloy or cervelat, pure pork with garlic",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30742,Strasbourg sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30746,Cocktail sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30750,"Viennese sausage, pork and veal, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30764,Ham sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30766,Beer sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30789,Mortadella,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30790,"Mortadella, pure pork",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30791,Pork and beef mortadella,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+30797,"Mortadella with pistachios, pure pork",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31000,Chocolate bar with biscuit,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31001,Coated chocolate bar without biscuit,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31002,"Coconut bar, with chocolate coating",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31003,"Candies, all types",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31004,Milk chocolate bar,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31005,"Dark chocolate bar, less than 70% cocoa",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31008,Honey,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31009,"Milk chocolate bar, with puffed/popped cereals",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31010,White chocolate bar,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31012,"Chocolate confectionery or bar, with dairy filling",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31013,"Sorbet, on stick",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31014,Fruit jelly,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31017,"Sugar, brown",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31018,"Milk chocolate bar, with dried fruits (nuts, almonds, raisins, praline)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31020,"Milk chocolate bar, without sugar, with sweeteners",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31024,"Jam, strawberry",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31026,"White chocolate bar, with dried fruits (nuts, almonds, raisins, praline)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31030,"Dark chocolate bar, without sugar and with artificial sweeteners",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31032,Chocolate spread with hazelnuts,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31033,Nougat,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31036,Sugar-coated almond,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31037,"Jam, apricot",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31038,"Jam, cherry",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31039,"Marmalade, orange",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31040,Dulce de leche or confiture de lait,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31041,"Chocolate confectionery, sugar coated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31042,Sugar and chocolate coated peanut,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31050,"Candies, marshmallows",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31059,Hard candy and lollipop,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31060,Jelly candy,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31062,"Jam, raspberry",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31063,"Chocolate confectionery, filled with nuts and/or praline",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31066,Chocolate and nut confectionery filled with praline,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31067,Cane molasses,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31069,"Dark chocolate bar, with fruits (orange, raspberries, pear)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31070,"Dark chocolate bar, with dried fruits (nuts, almonds, raisin, praline)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31071,Chocolate bar with dried fruits,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31072,"Dark chocolate, filled with mint confectionery",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31073,"Chocolate snack bar, dairy filling",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31074,"Dark chocolate bar, more than 70% cocoa",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31077,Fructose,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31079,"Milk chocolate, filled",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31080,"Dark chocolate bar, filled with praline",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31081,Soft caramel candy,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31084,"Milk chocolate bar, filled with praline",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31085,"Dark chocolate bar, more than 40% cocoa, for cooking",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31091,"Chocolate confectionery, filled with wafer",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31092,Melon and almond Candy on a unleavened bread layer,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31098,Toblerone milk cholcolate bar w nougat,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31099,"Chocolate snack bar, dairy filling with sponge cake",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31100,"Milky cereal breakfast bar, with chocolate or not, fortified with vitamins and minerals",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31101,"Cereal bar with fruit, fortified with vitamins and minerals",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31102,"Cereal bar with chocolate, fortified with vitamins and minerals",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31106,Chocolate cereal bar,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31110,"Jam, reduced sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31113,Cereal bar w fruit,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+31114,Cereal bar with almonds or hazelnuts,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32000,"Breakfast cereals, popped or puffed wheat grain, with honey or caramel, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32001,"Breakfast cereals, with chocolate, not filled, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32002,"Breakfast cereals, rich in fibre, with or without fruits, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32005,"Breakfast cereals, corn flakes, plain, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32008,"Breakfast cereals, rich in fibre, with chocolate, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32009,"Breakfast cereals, chocolate wheat grain flakes, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32011,"Breakfast cereals, chocolate wheat grain flakes (not fortified with vitamins and chemical elements)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32013,"Breakfast cereals, with chocolate, not filled (not fortified with vitamins and chemical elements)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32014,"Breakfast cereals, corn flakes, plain (not fortified with vitamins and chemical elements)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32016,"Breakfast cereals, filled with chocolate or chocolate-hazelnuts, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32017,"Breakfast cereals, filled with chocolate or chocolate-hazelnuts",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32018,"Breakfast cereals, filled with a filling other than chocolate, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32021,"Breakfast cereals, diet, plain or with honey, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32022,"Breakfast cereals, diet, with chocolate, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32023,"Breakfast cereals, diet, with fruits, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32025,"Breakfast cereals, diet, with dried fruits, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32028,"Breakfast cereals, diet, with chocolate, not fortified",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32029,"Breakfast cereals, diet, with fruits, not fortified",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32030,"Breakfast cereals, diet, plain, not fortified",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32107,"Breakfast cereals, corn flakes, sugar iced (not fortified with vitamins and chemical elements)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32108,"Muesli, crunchy, with fruits and/or dried fruits, grains (not fortified with vitamins and chemical elements)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32109,"Muesli, crunchy, with chocolate (not fortified with vitamins and chemical elements)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32110,"Muesli, flakes (Bircher-style), with fruits or dried fruits, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32111,"Muesli, crunchy, with fruits or dried fruits, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32112,"Muesli, crunchy, with chocolate, with or without fruits, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32113,"Muesli, flakes (Bircher-style), with fruits or dried fruits, without sugar",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32115,"Breakfast cereals, chocolate puffed/popped wheat grain, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32116,"Breakfast cereals, very rich in fibre, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32121,"Breakfast cereals, corn flakes, sugar iced, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32123,"Breakfast cereals, wheat flakes with walnuts, hazelnuts or almonds, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32128,"Muesli, flakes (Bircher-style)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32129,"Breakfast cereals, puffed/popped corn, with honey (not fortified with vitamins and chemical elements)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32133,"Breakfast cereals, puffed/popped corn, with honey, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32134,"Breakfast cereals, puffed/popped cereals, wholemeal, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32135,"Breakfast cereals, mix of puffed or extruded cereals, fortified with vitamins and chemical elements",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32138,"Muesli, flakes (Bircher-style), with fruits or dried fruits (not fortified with vitamins and chemical elements)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+32140,"Oat flakes, pre-cooked, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+34001,"Rabbit, meat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+34003,"Rabbit, wild, meat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36000,"Hen, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36001,"Hen, meat only, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36002,"Chicken, leg, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36003,"Chicken, meat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36007,"Chicken, white race, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36008,"Chicken, free-range, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36014,"Chicken, stewing, leg, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36016,"Chicken, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36017,"Chicken, breast, without skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36019,"Chicken high leg, meat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36020,"Chicken, eviscerated without offal, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36022,"Chicken, drumstick, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36023,"Chicken, wing, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36024,"Chicken, leg, meat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36027,"Chicken, nugget, breaded croquette",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36029,"Chicken, breast, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36036,"Turkey, breaded escalope",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36050,"Capon, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36201,"Duck, meat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36203,"Duck, leg, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36204,"Duck, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36206,"Duck, breast fillet",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36300,"Turkey, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36301,"Turkey, meat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36304,"Turkey, escalope, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36305,"Turkey, leg, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36307,"Turkey, leg, meat only, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36310,"Turkey, wing, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36318,Milanese-style turkey escalope or breaded veal escalope,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36500,"Goose, meat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36501,"Goose, meat and skin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36700,"Guinea fowl, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36702,"Guinea fowl, breast, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+36703,"Guinea fowl, leg, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+37001,"Pizza base, raw",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+37002,Tomato sauce for pizza base,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38105,Corn chips or tortilla chips,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38106,"Puffed salty snacks, made from potato",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38107,"Salty snacks, mini pretzels or sticks",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38108,"Puffed salty snacks, made from potato and soy",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38400,"Puffed salty snacks, made from maize/corn, without peanuts",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38401,"Salty snacks, crackers, garnished or filled with cheese",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38402,"Salty snacks, crackers, plain",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38403,"Salty snacks, crackers, reduced fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38404,"Puffed salty snacks, made from maize/corn, with peanuts",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38405,"Salty snacks, made from potato",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38406,Coated peanuts,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38407,"Salty snacks, puff pastry",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38408,"Salted crispy crepe with cheese, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+38500,"Crouton with garlic, herbs or onions, prepacked",1,0,1,7,NP:1,"NP:1,P:7",Gained Proxy Versions,1,8,7
+39200,"Custard dessert, chocolate, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39206,"Chocolate mousse (milk-based), refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39209,"Custard cream with caramel sauce, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39210,"Mousse, chocolate, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39211,"Custard cream with eggs (a small jar of chocolate or vanilla cream or other flavour), refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39212,"Rice pudding, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39214,"Custard dessert, vanilla, canned",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39215,"Floating island (meringue poached in milk and served in a light custard cream), refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39216,"Fruits batter-pudding, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39218,"Semolina pudding, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39220,Fruit liegeois,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39228,"Fruit mousse, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39229,"Custard dessert, vanilla, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39232,"Rice pudding, canned",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39234,"Chocolate cake w melting centre, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39236,French toast,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39246,"Custard dessert, coffee, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39247,"Custard dessert, caramel, refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39401,Peach melba (with vanilla ice cream and raspberry sauce),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39506,"Custard dessert, chocolate, canned",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39524,"Sorbet, in box",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39526,Ice lolly,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39532,"Goblet of ice cream, coffee or chocolate ice cream topped with whipped cream",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39534,"Goblet of ice cream, peach Melba or Belle Helene pear type",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39700,"Light custard cream with vanilla, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+39710,Pastry cream or custard,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4000,"Tapioca, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40002,"Brain, lamb, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40005,"Brain, pork, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40006,"Brain, calf, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4004,Potato crisps,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40052,"Heart, beef, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40054,"Heart, chicken, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40055,"Heart, turkey, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40058,"Heart, lamb, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40060,"Heart, pork, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40062,"Heart, veal, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4008,"Potato, peeled, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40102,"Liver, lamb, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40104,"Liver, young cow, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40106,"Liver, calf, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40108,"Liver, poultry, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40110,"Liver, rabbit, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40111,"Liver, chicken, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40115,"Liver, turkey, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40119,"Liver, pork, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40120,"Liver, goose, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40121,"Liver, duck, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4016,"Potato flakes, dehydrated, with milk or cream",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4017,"Potato puree, made from flakes, reconstituted with whole milk, with added fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4018,"Potato puree, with milk and butter, unsalted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4019,"Potato puree, made from flakes, reconstituted with semi-skimmed milk and water, unsalted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4020,"Dauphine potato, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40202,"Tongue, beef, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40204,"Tongue, calf, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40205,"Tongue, pork, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4022,"Potato flakes, dehydrated, plain",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4023,"New potato, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40302,"Sweetbread, lamb, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40304,"Sweetbread, calf, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4037,"Potato crisps, ""à l'ancienne"" (old-fashioned style)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4038,"Potato crisps and related, reduced fat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4039,Rostis or Potatoes cake,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40402,"Kidney, beef, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40404,"Kidney, pork, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40407,"Kidney, lamb, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40409,"Kidney, calf, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4041,Mashed potatoes w fresh tome cheese,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4042,"Duchesse potato, frozen, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4044,"French fries or chips, frozen, raw, intended to be roasted/baked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4045,"French fries or chips, frozen, raw, intended to be microwaved",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4046,"French fries or chips, frozen, raw, intended to be deep-fried",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40502,"Tripe, beef, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40600,"Blood, beef, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+40700,"Gizzard, chicken, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+4101,"Sweet potato, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+42000,"Meal replacement low calorie, Custard cream dessert-type",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+42004,"Meal replacement low calorie, in powder, reconstituted with skimmed milk",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+42005,"Meal replacement low calorie, in powder, reconstituted with skimmed milk, milkshake type",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+42200,Soy lecithin,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+42603,"Vegetable dish for baby, w meat/fish and starch, from 6-8 months",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+42604,"Vegetable dish for baby, w meat/fish and starch, from 8-12 months",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+42605,"Vegetable dish for baby, w meat/fish and starch, from 12 months",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+42606,"Vegetable dish for baby, w meat/fish and starch, from 18 months",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+51500,Molokhia powder (dried jute leaves),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+51510,"Frik (crushed immature durum wheat), raw",0,1,1,15,P:1,"NP:1,P:15",No Change,1,16,15
+51550,"Khatfa (phyllo or filo pastry), prepacked",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+53100,"Plantain banana, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+53200,"Taro, tuber, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+53502,"Yam or Indian potato, peeled, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+54031,"Cassava or manioc, roots, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+54500,"Breadfruit, raw",0,1,1,10,P:1,"NP:1,P:10",No Change,1,11,10
+6001,"Beef, rib, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6002,"Beef, shoulder, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6102,"Beef, round, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6103,"Beef, rib steak, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6111,"Beef, sirloin steak, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6112,"Beef, sirloin steak, red label, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6122,"Beef, short ribs, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6130,"Beef, thin flank, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6140,"Beef, cheek, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6150,"Beef, knuckle, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6160,"Beef, topside, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6201,"Beef, steak or beef steak, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6202,"Beef, bolar-blade, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6204,"Beef, hanger steak, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6206,"Beef, rump steak, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6212,"Beef, flank steak, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6231,"Beef, stewing meat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6250,"Beef, minced steak, 5% fat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6252,"Beef, minced steak, 10% fat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6254,"Beef, minced steak, 15% fat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6256,"Beef, minced steak, 20% fat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6260,"Burger, beef based, 15% fat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6270,"Beef, chuck, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6510,"Veal, chop, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6513,"Veal, loin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6521,"Veal, escalope, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6522,"Veal, tenderloin, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6530,"Veal fillet, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6535,"Veal, minced steak, 20% fat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6536,"Veal, minced steak, 15% fat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6540,"Veal, breast, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6550,"Veal, roast, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6560,"Veal, shoulder, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6580,"Calf, foot, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6583,"Veal, knuckle or shank, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+6590,"Veal, neck, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7001,"Bread, French bread, baguette",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7002,"Bread, French bread (baguette or ball), with yeast",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7004,"Toasted bread, home-made",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+7007,"Bread, French bread, baguette, unsalted",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7010,"Brown bread, French bread (baguette or ball), with flour type 80 or 110",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7012,"Bread, French bread, ball, 400g",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7025,"Bread (baguette or ball), made with type T55-T110 flour",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7100,"Country-style bread, French bread (baguette or ball)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7110,"Bread, wholemeal or integral bread (made with flour type 150)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7111,"Sandwich loaf, wholemeal",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7112,"Sandwich loaf, bran grain",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7113,"Sandwich loaf, multigrain",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7115,Bran grain bread,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7125,"Rye bread, and wheat",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7130,"Bread, gluten free",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7160,"Bread, French bread, without salt",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7170,Panini bread,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7180,Pita bread,1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+7200,Sandwich loaf,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7201,"Sandwich loaf, crust less, prepacked",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+7210,"Brioche sandwich bread, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7225,Brioche or Vienna bread,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7255,"Bread, French bread, (baguette or ball), multigrain, from bakery",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7256,"English muffin, wholewheat flour, prepacked",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+7257,"English muffin, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7258,Bagel,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7259,"Rolls for hamburger/hotdog (buns), prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7260,"Bread, home-made, with flour for home-made bread preparation",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7261,"Country-style bread, home-made (with flour for bread making machine)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7262,"Rolls for hamburger/hotdog (buns), wholemeal, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7300,Rusk,1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+7301,"Rusk, w eggs",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+7310,"Rusk, unsalted",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+7330,"Rusk, multigrain",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+7340,"Rusk, wholemeal or rich in fibre",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+7352,"Puffed rice textured bread, wholemeal",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7353,Puffed cereals textured bread,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7400,"Rusk, slice, wheat",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+7403,"Rusk with eggs, sliced, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7407,Wheat swedish toast,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7409,"Swedish toast, with linseeds",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7420,"Wheat swedish toast, wholemeal",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7421,"Swedish toast, with fruits",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7425,"Rusk , slice, multigrain",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+7430,Croutons,1,0,1,7,NP:1,"NP:1,P:7",Gained Proxy Versions,1,8,7
+7432,"Croutons, plain, prepacked",1,0,1,7,NP:1,"NP:1,P:7",Gained Proxy Versions,1,8,7
+7525,Grissini or bread stick,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+76000,"Mineral still water (Abatilles), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76001,"Mineral still water (Aix-les-Bains), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76002,"Mineral sparkling water (Aziac), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76004,"Mineral still water (Amanda), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76006,"Mineral sparkling water (Arcens), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76007,"Mineral sparkling water (Ardesy), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76010,"Mineral still water (Celtic), bottled, very lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76011,"Mineral still water (Chambon), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76012,"Mineral still water (Chantemerle), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76013,"Mineral sparkling water (Chateauneuf), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76014,"Mineral sparkling water (Chateldon), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76015,"Mineral still water (Clos de l'Abbaye), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76016,"Mineral still water (Contrex), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76017,"Mineral still water (Dax), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76018,"Mineral sparkling water (Didier), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76019,"Mineral still water (Didier), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+7602,Croissant,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+76020,"Mineral still water (Evian), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76022,"Mineral still water (Hépar), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76023,"Mineral sparkling water (Hydroxydase), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76024,"Mineral sparkling water (Vernière), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76025,"Mineral still water (Luchon), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76027,"Mineral water (Mont-Roucous, bottled, very lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76028,"Spring water (Ogeu), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76029,"Mineral still water (Orée du bois), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76030,"Mineral sparkling water (Orezza), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76031,"Mineral sparkling water (Parot), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76032,"Mineral still water (Plancoet), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76033,"Mineral still water (Propiac), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76034,"Mineral sparkling water (Puits St Georges), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76035,"Mineral sparkling water (Quézac), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76036,"Mineral sparkling water (Reine des basaltes), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76037,"Mineral sparkling water (Rozana), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76038,"Mineral still water (Sail-les-Bains), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76039,"Mineral sparkling water (Salvetat), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76043,"Mineral still water (St-Amand), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76044,"Mineral still water (St-Antonin), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76046,"Mineral sparkling water (St-Diéry), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76047,"Mineral sparkling water (Ste-Marguerite), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76049,"Mineral sparkling water (St-Yorre), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76050,"Mineral still water (Thonon), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76053,"Mineral sparkling water (Ventadour), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76054,"Mineral sparkling water (Vernet), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76055,"Mineral sparkling water (Vichy Célestins), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76056,"Mineral still water (Vittel), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76057,"Mineral still water (Volvic), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76058,"Mineral sparkling water (Volvic active), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76059,"Mineral still water (Wattwiller), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76060,"Mineral sparkling water (Perrier), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76061,"Mineral sparkling water (Badoit), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76062,"Mineral still water (Avra), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76063,"Mineral still water (Beckerich), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76065,"Mineral still water (Chaudfontaine), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76066,"Mineral still water (Christinen Brunnen), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76067,"Mineral still water (Courmayer), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76069,"Mineral still water (Levissima), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76070,"Mineral still water (Luso), bottled, very lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76071,"Mineral still water (Néro), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76072,"Mineral still water (Penacova), bottled, very lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76074,"Mineral water (San Bernardo), bottled, very lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76075,"Mineral sparkling water (San Pellegrino), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76076,"Mineral still water (Spa-Reine), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76078,"Mineral still water (Valvert), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76079,"Mineral still water (Appollinaris), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76080,"Spring still water (Cristaline), bottled",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76081,"Mineral still water (Biovive), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76082,"Mineral still water (La Cairolle), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76083,"Mineral sparkling water (Cilaos), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76085,"Mineral still water (La Française), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76086,"Mineral still water (Montcalm), bottled, very lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76087,"Mineral still water (Montclar), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76088,"Mineral sparkling water (Nessel), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76089,"Mineral sparkling water (Ogeu), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76090,"Mineral still water (Ogeu), bottled, lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76091,"Mineral still water (Prince Noir), bottled, strongly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76092,"Mineral sparkling water (St-Alban), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76093,"Mineral sparkling water (St-Géron), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76094,"Mineral sparkling water (St-Michel-de-Mourcairol), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76095,"Mineral still water (Treignac), bottled, very lightly mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76096,"Mineral sparkling water (Vals), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76097,"Mineral still water (Vauban), bottled, averagely mineralized",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76100,"Water, mineral, carbonated ou non-carbonated, CAROLA",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76101,"Water, mineral, non-carbonated, MONT-BLANC",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+76102,"Water, mineral, non-carbonated, EDEN",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+7615,"Croissant, ordinary, from bakery",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7620,"Croissant, butter, from bakery",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7650,"Croissant w almonds, from bakery",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7710,"Milk roll, from bakery",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7711,"Milk roll, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7712,"Milk roll filled with chocolate drops, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7720,Raisin puff pastry (Viennese pastries),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7730,"Chocolate croissant, puff pastry, from bakery",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7733,"Chocolate croissant, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7735,"Brioche, filled with chocolate drops",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7737,"Brioche, filled with chocolate",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7738,"Brioche, filled with fruits",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7739,"Brioche, filled with custard (Chinese brioche type), prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7740,"Brioche, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7741,Brioche,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7742,"Brioche, from bakery",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7744,"Christmas brioche with candied fruits, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7745,"Brioche, pure butter",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7811,"Focaccia, filled",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7812,"Fougasse, filled",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7813,"Corn tortilla wrap, to be filled",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7814,"Savoury cake (with cheese, vegetables, meat, fish, poultry,etc.)",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7815_1,"Wheat tortilla wrap, to be filled",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+7815_2,"Wheat tortilla wrap, filled with soy-based, vegetarian",1,0,0,0,NP:1,None,Removed from New,1,0,-1
+8000,"Rillettes, pork",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8001,"Rillettes, pure pork",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8010,Rillettes from Tours,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8015,Rillettes from Mans,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8025,"Rillettes, pure goose",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8026,"Rillettes, duck",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8030,"Rillettes, goose",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8040,"Rillettes, poultry",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8081,"Rillettes, salmon",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8083,"Rillettes, mackerel",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8109,"Duck confit (conserved in rendered fat), meat (leg) without skin, reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8110,Preserved duck,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8111,"Duck breast fillet, smoked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8120,Preserved pork liver,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8125,Preserved poultry liver,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8201,Pâté w green pepper,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8211,Country-style pâté or terrine,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8214,Breton pâté,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8232,Duck terrine,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8240,Rabbit pâté,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8242,Rabbit terrine,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8245,Game pâté,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8250,Country-style pâté with mushrooms,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8291,Fish terrine,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8292,"Seafood terrine, with or without fish",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8293,"Taramasalata, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8296,Vegetable terrine or mousse,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8297,Vegetable flan,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8300,"Pork liver pâté, superior quality",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8305,Pork liver pâté,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8312,"Pork liver mousse, superior quality",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8313,Pork liver mousse,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8315,Duck mousse,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8316,Poultry liver pâté,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8326,Goose liver pâté,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8373,Rolled escalope of pork with pistachios,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8391,Pâté in crust,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8395,"Ham, in a pastry crusty",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8400,Head-cheese pâté or brawn,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8406,Pork snout in salad dressing sauce,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8500,Chitterling sausage,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8501,Chitterling sausage from Guéméné,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8504,"Chitterling sausage, pan-reheated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8512,Chitterling sausage from Vire,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8550,"Chitterling sausage, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8552,"Chitterling sausage from Troyes, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8601,Caen-style tripe,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8602,"Caen-style tripe, prepacked",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8612,Provencal-type tripe (with tomato),1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8703,"Black pudding (blood sausage), refrigerated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8803,"White pudding, truffled, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8903,"Veal quenelle, in sauce",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8910,"Poultry quenelle, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8912,"Poultry quenelle, in sauce",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8932,"Fish quenelle, in sauce",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8933,"Fish quenelle, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+8937,"Quenelle, plain, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9001,"Spelt, raw",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9003,Khorasan wheat,1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9010,"Wheat, whole, raw",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9060,"Durum wheat, whole, raw",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9080,"Wheat, whole, pre-cooked, raw",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9100,"Rice, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9102,"Rice, brown, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9108,"Wild rice, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9109,"Rice, red, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9119,"Basmati rice, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9121,"Rice, mix of species (white, wholegrain, wild, red,etc.), raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9200,"Corn or maize grain, raw",0,1,1,9,P:1,"NP:1,P:9",No Change,1,10,9
+9230,"Pop-corn or oil popped maize, salted",1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+9231,"Pop-corn or air-popped maize, unsalted",1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+9232,"Pop-corn or popped maize, with caramel",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9310,"Oat, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9311,Oatmeal flakes,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9320,"Barley, whole, raw",1,0,1,17,NP:1,"NP:1,P:17",Gained Proxy Versions,1,18,17
+9321,"Pearled barley, raw",1,0,1,17,NP:1,"NP:1,P:17",Gained Proxy Versions,1,18,17
+9330,"Millet, whole",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9340_1,"Quinoa, raw",0,1,0,0,P:1,None,Removed from New,1,0,-1
+9340_2,"Quinoa FR, raw",0,1,1,15,P:1,"NP:1,P:15",No Change,1,16,15
+9345,"Amaranth, raw",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9360,"Sorghum, whole, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9380,"Buckwheat, whole, raw",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9390,"Rye, whole, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9410,"Wheat flour, type 110",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9415,"Wheat flour, type 150",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9435,"Wheat flour, type 65",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9436,"Wheat flour, type 55 (for bread)",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9437,"Wheat flour, self-raising",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9440,"Wheat flour, type 55 (for pastry)",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9445,"Wheat flour, type 80",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9480,Spelt flour,1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9510,Maize/corn starch,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9520,Rice flour,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9530,"Rye flour, type 170",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9532,"Rye flour, type 85",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9533,"Rye flour, type 130",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9540,Buckwheat flour,1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9545,Maize/corn flour,1,0,1,9,NP:1,"NP:1,P:9",Gained Proxy Versions,1,10,9
+9550,Barley flour,1,0,1,17,NP:1,"NP:1,P:17",Gained Proxy Versions,1,18,17
+9555,Millet flour,1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9570,Chestnut flour,1,0,1,7,NP:1,"NP:1,P:7",Gained Proxy Versions,1,8,7
+9580,Chick pea flour,1,0,1,2,NP:1,"NP:1,P:2",Gained Proxy Versions,1,3,2
+9610,"Durum wheat semolina, raw",0,1,1,15,P:1,"NP:1,P:15",No Change,1,16,15
+9612,"Mix of cereals and legumes, raw",0,1,1,15,P:1,"NP:1,P:15",No Change,1,16,15
+9614,"Polenta or Maize/corn semolina, pre-cooked, dried",0,1,1,15,P:1,"NP:1,P:15",No Change,1,16,15
+9621,Wheat bran,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9640,Oat bran,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9641,Maize/corn bran,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9643,Rice bran,1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9681,"Couscous (durum wheat semolina pre-cooked with steam), raw",0,1,1,15,P:1,"NP:1,P:15",No Change,1,16,15
+9690,"Wheat bulgur, raw",1,0,1,15,NP:1,"NP:1,P:15",Gained Proxy Versions,1,16,15
+9810,"Dried pasta, raw",0,1,1,15,P:1,"NP:1,P:15",No Change,1,16,15
+9815,"Fresh egg pasta, raw",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9821,"Dried egg pasta, raw",0,1,1,15,P:1,"NP:1,P:15",No Change,1,16,15
+9863,"Asian noodles, flavoured, dehydrated",1,0,1,0,NP:1,NP:1,No Change,1,1,0
+9870,"Dried pasta, wholemeal, raw",0,1,1,15,P:1,"NP:1,P:15",No Change,1,16,15
+9874,"Dried pasta, gluten-free, raw",0,1,1,15,P:1,"NP:1,P:15",No Change,1,16,15
+9900,"Rice noodle, dried",1,0,1,0,NP:1,NP:1,No Change,1,1,0

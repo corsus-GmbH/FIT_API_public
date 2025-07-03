@@ -60,6 +60,15 @@ To get started, you can obtain the Git repository for `FIT-API` using either the
 4. **Open the project folder**:
    - Use your file explorer to navigate to the directory where you extracted the repository files (e.g., `FIT-API`).
 
+
+### Database creation
+The API requires a database. In previous versions of this repository, the database was supplied, which is no longer the case. To create the database, please follow these steps:
+1. Head to the sister repository [FIT_scripts_public](github.com/corsus-GmbH/FIT_scripts_public) and follow instructions there to create the CSV files needed for the database
+2. Copy the created files into `database_creation/input/`
+3. Run the script `database_creation/create_full_database.py`
+4. Copy the created file from `database_creation/output/` and save under `data/FIT.db` 
+
+
 ### Basic Docker Setup
 
 Once you have the repository, ensure you are in the project directory (`FIT-API`) before running any Docker commands.
@@ -152,10 +161,10 @@ To update the Docker image with new code changes:
 1. **Rebuild the image** with a new version tag:
 
    ```bash
-   docker build -t fit-api:v1.0.1 .
+   docker build -t fit-api:v1.1.1 .
    ```
 
-   - **`fit-api:v1.0.1`**: Update the image name and tag to reflect the new version.
+   - **`fit-api:v1.1.1`**: Update the image name and tag to reflect the new version.
 
 2. **Stop and remove the old container**:
 
@@ -169,10 +178,10 @@ To update the Docker image with new code changes:
 3. **Run a new container** with the updated image:
 
    ```bash
-   docker run -d --name fit-api-container -p 8080:80 -v /path/to/local/logs:/usr/src/FIT/logs fit-api:v1.0.1
+   docker run -d --name fit-api-container -p 8080:80 -v /path/to/local/logs:/usr/src/FIT/logs fit-api:v1.1.1
    ```
 
-   - **`fit-api:v1.0.1`**: Use the updated image name and tag.
+   - **`fit-api:v1.1.1`**: Use the updated image name and tag.
    - **`/path/to/local/logs`**: Ensure this path is correct for your setup if you are binding logs externally.
 
 ### Additional Tips

@@ -1,0 +1,13 @@
+{
+  "geographies": "input/dbout_geographies_*.csv",
+  "groups": "input/dbout_groups_*.csv",
+  "impactcategories": "input/dbout_impactcategories_*.csv",
+  "impactcategoryweights": "input/dbout_impactcategoryweights_*.csv",
+  "lifecyclestages": "input/dbout_lifecyclestages_*.csv",
+  "metadata": "input/dbout_metadata_*.csv",
+  "normalizedlciavalues": "input/dbout_normalizedlciavalues_*.csv",
+  "singlescores": "input/dbout_singlescores_*.csv",
+  "subgroups": "input/dbout_subgroups_*.csv",
+  "weightedresults": "input/dbout_weightedresults_*.csv",
+  "weightingschemes": "input/dbout_weightingschemes_*.csv"
+}

@@ -1,0 +1,162 @@
+{
+  "20039-FRA": {
+    "product_name": "Leek, raw",
+    "country": "France",
+    "international_code": 250,
+    "group": "fruits, vegetables, legumes and oilseeds",
+    "subgroup": "vegetables",
+    "proxy": false
+  },
+  "12834-FRA": {
+    "product_name": "Crottin de Chavignol cheese, from goat's milk",
+    "country": "France",
+    "international_code": 250,
+    "group": "milk and dairy products",
+    "subgroup": "cheeses",
+    "proxy": false
+  },
+  "11045-BRA": {
+    "product_name": "Baker's yeast, dehydrated",
+    "country": "Brazil",
+    "international_code": 76,
+    "group": "cooking aids and various ingredients",
+    "subgroup": "miscellaneous ingredients",
+    "proxy": false
+  },
+  "13731-FRA": {
+    "product_name": "Peach, canned in light syrup, not drained",
+    "country": "France",
+    "international_code": 250,
+    "group": "fruits, vegetables, legumes and oilseeds",
+    "subgroup": "fruits",
+    "proxy": false
+  },
+  "25123-FRA": {
+    "product_name": "Moussaka",
+    "country": "France",
+    "international_code": 250,
+    "group": "starters and mixed dishes",
+    "subgroup": "mixed dishes",
+    "proxy": false
+  },
+  "9380-FRA": {
+    "product_name": "Buckwheat, whole, raw",
+    "country": "France",
+    "international_code": 250,
+    "group": "cereal products",
+    "subgroup": "pasta, rice and cereals",
+    "proxy": false
+  },
+  "51510-FRA": {
+    "product_name": "Frik (crushed immature durum wheat), raw",
+    "country": "France",
+    "international_code": 250,
+    "group": "cereal products",
+    "subgroup": "pasta, rice and cereals",
+    "proxy": true
+  },
+  "12737-FRA": {
+    "product_name": "Mimolette cheese, half-old, from cow's milk",
+    "country": "France",
+    "international_code": 250,
+    "group": "milk and dairy products",
+    "subgroup": "cheeses",
+    "proxy": false
+  },
+  "11163-ESP": {
+    "product_name": "Sweet and sour sauce, prepacked",
+    "country": "Spain",
+    "international_code": 724,
+    "group": "cooking aids and various ingredients",
+    "subgroup": "sauces",
+    "proxy": false
+  },
+  "19026-FRA": {
+    "product_name": "Condensed milk, without sugar, whole",
+    "country": "France",
+    "international_code": 250,
+    "group": "milk and dairy products",
+    "subgroup": "milks",
+    "proxy": false
+  },
+  "26270-FRA": {
+    "product_name": "Pizza, tuna",
+    "country": "France",
+    "international_code": 250,
+    "group": "starters and mixed dishes",
+    "subgroup": "pizzas, savoury pies and pancakes",
+    "proxy": false
+  },
+  "11032-FRA": {
+    "product_name": "Basil, dried",
+    "country": "France",
+    "international_code": 250,
+    "group": "cooking aids and various ingredients",
+    "subgroup": "herbs",
+    "proxy": false
+  },
+  "31102-FRA": {
+    "product_name": "Cereal bar with chocolate, fortified with vitamins and minerals",
+    "country": "France",
+    "international_code": 250,
+    "group": "cereal products",
+    "subgroup": "breakfast cereals and biscuits",
+    "proxy": false
+  },
+  "7650-FRA": {
+    "product_name": "Croissant w almonds, from bakery",
+    "country": "France",
+    "international_code": 250,
+    "group": "cereal products",
+    "subgroup": "breads and pastries",
+    "proxy": false
+  },
+  "15006-FRA": {
+    "product_name": "Coconut, ripe kernel, fresh",
+    "country": "France",
+    "international_code": 250,
+    "group": "fruits, vegetables, legumes and oilseeds",
+    "subgroup": "nuts and oilseeds",
+    "proxy": false
+  },
+  "20904-FRA": {
+    "product_name": "Tofu, plain",
+    "country": "France",
+    "international_code": 250,
+    "group": "starters and mixed dishes",
+    "subgroup": "mixed dishes",
+    "proxy": false
+  },
+  "26091-FRA": {
+    "product_name": "Mullet, raw",
+    "country": "France",
+    "international_code": 250,
+    "group": "meats, eggs, fish",
+    "subgroup": "raw fish",
+    "proxy": false
+  },
+  "9621-FRA": {
+    "product_name": "Wheat bran",
+    "country": "France",
+    "international_code": 250,
+    "group": "cooking aids and various ingredients",
+    "subgroup": "miscellaneous ingredients",
+    "proxy": false
+  },
+  "9640-FRA": {
+    "product_name": "Oat bran",
+    "country": "France",
+    "international_code": 250,
+    "group": "cooking aids and various ingredients",
+    "subgroup": "miscellaneous ingredients",
+    "proxy": false
+  },
+  "4020-FRA": {
+    "product_name": "Dauphine potato, frozen, raw",
+    "country": "France",
+    "international_code": 250,
+    "group": "fruits, vegetables, legumes and oilseeds",
+    "subgroup": "potatoes and other tubers",
+    "proxy": false
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "summary": "Column mapping fixes applied to rf_create_full_database.py",
+  "date": "2025-07-08",
+  "changes_made": {
+    "geographies": {
+      "alpha-2": "geo_shorthand_2",
+      "alpha-3": "geo_shorthand_3", 
+      "country-code": "international_code",
+      "name": "country_name"
+    },
+    "groups": {
+      "group_en": "group_name"
+    },
+    "subgroups": {
+      "subgroup_en": "subgroup_name"
+    },
+    "impactcategories": {
+      "normalisation_value": "normalization_value",
+      "normalisation_unit": "normalization_unit"
+    },
+    "lifecyclestages": {
+      "lcstage_shorthand": "lc_stage_shorthand",
+      "name": "lc_name"
+    },
+    "impactcategoryweights": {
+      "value": "ic_weight"
+    },
+    "singlescores": {
+      "single_scores": "single_score"
+    }
+  },
+  "schema_fixes": {
+    "metadata": "Fixed to use composite primary key (item_id, geo_id) instead of single primary key (item_id) to preserve multi-geography records"
+  },
+  "issues_resolved": [
+    "CSV semicolon delimiter parsing",
+    "Column name mismatches between CSV headers and database fields",
+    "Metadata schema fixed to use composite primary key (item_id, geo_id)",
+    "NULL constraint failures due to missing column mappings"
+  ],
+  "final_mapping_complete": {
+    "geographies": ["geo_id", "geo_shorthand_2", "geo_shorthand_3", "international_code", "country_name"],
+    "groups": ["group_id", "group_name"], 
+    "subgroups": ["subgroup_id", "subgroup_name"],
+    "impactcategories": ["ic_id", "ic_name", "ic_shorthand", "normalization_value", "normalization_unit"],
+    "lifecyclestages": ["lc_stage_id", "lc_stage_shorthand", "lc_name"],
+    "weightingschemes": ["scheme_id", "name"],
+    "metadata": ["item_id", "geo_id", "code_ciqual", "name_lci", "group_id", "subgroup_id", "proxy_flag"],
+    "impactcategoryweights": ["scheme_id", "ic_id", "ic_weight"],
+    "normalizedlciavalues": ["item_id", "geo_id", "ic_id", "lc_stage_id", "normalized_lcia_value", "non_normalized_lcia_value"],
+    "weightedresults": ["item_id", "geo_id", "ic_id", "lc_stage_id", "scheme_id", "weighted_value"],
+    "singlescores": ["item_id", "geo_id", "scheme_id", "single_score"]
+  }
+}

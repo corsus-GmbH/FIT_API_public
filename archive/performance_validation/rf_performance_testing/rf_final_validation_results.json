@@ -1,0 +1,152 @@
+[
+  {
+    "status": "success",
+    "recipe_size": 1,
+    "iterations": 3,
+    "performance": {
+      "original_avg": 0.4773716926574707,
+      "optimized_avg": 0.8444383144378662,
+      "avg_speedup": 0.5653126871383756,
+      "original_times": [
+        1.4150574207305908,
+        -1.1933999061584473,
+        1.2104575634002686
+      ],
+      "optimized_times": [
+        0.9851739406585693,
+        0.7509889602661133,
+        0.797152042388916
+      ]
+    },
+    "consistency": {
+      "all_identical": true,
+      "max_score_difference": 0.0,
+      "consistent_iterations": 3
+    }
+  },
+  {
+    "status": "success",
+    "recipe_size": 3,
+    "iterations": 3,
+    "performance": {
+      "original_avg": 1.2949848175048828,
+      "optimized_avg": 0.7640135288238525,
+      "avg_speedup": 1.694976291190059,
+      "original_times": [
+        1.3630452156066895,
+        1.269920825958252,
+        1.251988410949707
+      ],
+      "optimized_times": [
+        0.7632832527160645,
+        0.7802391052246094,
+        0.7485182285308838
+      ]
+    },
+    "consistency": {
+      "all_identical": true,
+      "max_score_difference": 0.0,
+      "consistent_iterations": 3
+    }
+  },
+  {
+    "status": "success",
+    "recipe_size": 5,
+    "iterations": 3,
+    "performance": {
+      "original_avg": 1.3398231665293376,
+      "optimized_avg": 0.7814993063608805,
+      "avg_speedup": 1.7144265588261887,
+      "original_times": [
+        1.3359482288360596,
+        1.4166767597198486,
+        1.2668445110321045
+      ],
+      "optimized_times": [
+        0.7946939468383789,
+        0.7685728073120117,
+        0.781231164932251
+      ]
+    },
+    "consistency": {
+      "all_identical": true,
+      "max_score_difference": 0.0,
+      "consistent_iterations": 3
+    }
+  },
+  {
+    "status": "success",
+    "recipe_size": 8,
+    "iterations": 3,
+    "performance": {
+      "original_avg": 1.225632111231486,
+      "optimized_avg": 0.843374490737915,
+      "avg_speedup": 1.45324778576017,
+      "original_times": [
+        1.1852469444274902,
+        1.1803886890411377,
+        1.31126070022583
+      ],
+      "optimized_times": [
+        0.8246641159057617,
+        0.7591609954833984,
+        0.946298360824585
+      ]
+    },
+    "consistency": {
+      "all_identical": true,
+      "max_score_difference": 0.0,
+      "consistent_iterations": 3
+    }
+  },
+  {
+    "status": "success",
+    "recipe_size": 12,
+    "iterations": 3,
+    "performance": {
+      "original_avg": 1.409674088160197,
+      "optimized_avg": 0.8014601071675619,
+      "avg_speedup": 1.758882414175451,
+      "original_times": [
+        1.5171375274658203,
+        1.3978819847106934,
+        1.3140027523040771
+      ],
+      "optimized_times": [
+        0.797760009765625,
+        0.8277497291564941,
+        0.7788705825805664
+      ]
+    },
+    "consistency": {
+      "all_identical": true,
+      "max_score_difference": 0.0,
+      "consistent_iterations": 3
+    }
+  },
+  {
+    "status": "success",
+    "recipe_size": 15,
+    "iterations": 3,
+    "performance": {
+      "original_avg": 0.8938995202382406,
+      "optimized_avg": 1.0698962211608887,
+      "avg_speedup": 0.8355011472685797,
+      "original_times": [
+        -0.9587016105651855,
+        1.812394142150879,
+        1.8280060291290283
+      ],
+      "optimized_times": [
+        0.9740378856658936,
+        1.2515308856964111,
+        0.9841198921203613
+      ]
+    },
+    "consistency": {
+      "all_identical": true,
+      "max_score_difference": 0.0,
+      "consistent_iterations": 3
+    }
+  }
+]
