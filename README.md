@@ -63,7 +63,7 @@ To get started, you can obtain the Git repository for `FIT-API` using either the
 
 ### Database creation
 The API requires a database. In previous versions of this repository, the database was supplied, which is no longer the case. To create the database, please follow these steps:
-1. Head to the sister repository [FIT_scripts_public](github.com/corsus-GmbH/FIT_scripts_public) and follow instructions there to create the CSV files needed for the database
+1. Head to the sister repository [FIT_scripts_public](https://github.com/corsus-GmbH/FIT_scripts_public) and follow instructions there to create the CSV files needed for the database
 2. Copy the created files into `database_creation/input/`
 3. Run the script `database_creation/create_full_database.py`
 4. Copy the created file from `database_creation/output/` and save under `data/FIT.db` 
