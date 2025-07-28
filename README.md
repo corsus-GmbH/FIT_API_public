@@ -442,3 +442,7 @@ The `debug.env` file is used to control various aspects of the logging behavior:
 - If the Docker image build fails, you can inspect the logs in the `logs/docker/` directory to identify where the problem occurred.
 
 By organizing Docker-specific logs separately, the application maintains a clear boundary between runtime logs and build logs, facilitating smoother debugging processes for both developers and operators.
+
+
+### Licence
+This work is licensed under the Creative Commons Attribution 4.0 International License. Please refer to LICENCE file.
